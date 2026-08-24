@@ -13,7 +13,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 6.4h | 37.2h | 128.8h | ~1911h* |
+| Screen time (Mac) | 6.4h | 37.2h | 128.8h | ~1920h* |
 | Interactive human attention | 3.0h | 30.4h | 113.8h | 228.5h |
 | Interactive AI generation | 3.0h | 28.5h | 116.6h | 361.6h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -115,7 +115,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-24 05:15 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-24 06:06 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
