@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 0.1h | 2.3h | 25.2h | 53.1h |
 | Additive observed work | 6.0h | 61.2h | 255.5h | 643.2h |
 | Interactive sessions | 14 | 29 | 85 | 169 |
-| Worker sessions | 36 | 143 | 765 | 1,525 |
+| Worker sessions | 37 | 144 | 766 | 1,526 |
 
 _Screen time from macos-knowledge-db:/app/usage-union; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -36,8 +36,8 @@ _AI session 365-day totals cover 60 days of local assistant session history (not
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-5 | 12,220 | 24K | 7.7M | 4,073.2M | $1,930.25 | $54,988.48 | $0.00 |
 | claude-sonnet-5 | 7,299 | 14K | 4.0M | 2,401.1M | $1,175.56 | $6,483.22 | $3,125.94 |
-| gpt-5.6-sol | 6,986 | 30.6M | 1.4M | 571.1M | $515.13 | $1,542.01 | $1,138.25 |
-| claude-opus-4-8 | 434 | 868 | 321K | 215.7M | $415.06 | $2,912.31 | $0.00 |
+| gpt-5.6-sol | 6,961 | 30.6M | 1.4M | 570.3M | $514.24 | $1,539.98 | $1,136.31 |
+| claude-opus-4-8 | 246 | 492 | 190K | 145.3M | $291.15 | $1,962.68 | $0.00 |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | $136.60 | $694.71 | $0.00 |
 | big-pickle | 2,756 | 9.4M | 684K | 257.7M | $124.94 | $0.00 | $579.38 |
 | deepseek-v4-flash-free | 530 | 3.0M | 297K | 55.6M | $33.22 | $150.33 | $120.91 |
@@ -45,13 +45,13 @@ _AI session 365-day totals cover 60 days of local assistant session history (not
 | gpt-5.5 | 409 | 2.1M | 111K | 51.6M | $20.43 | $139.40 | $93.97 |
 | claude-fable-5 | 21 | 42 | 53K | 1.4M | $5.49 | $3.98 | $4.96 |
 | nemotron-3.5-lightning-free | 19 | 284K | 10K | 1.4M | $1.55 | $4.05 | $5.84 |
-| gpt-5.6-luna | 267 | 4.0M | 29K | 11.9M | $1.15 | $32.23 | $64.84 |
+| gpt-5.6-luna | 268 | 4.1M | 29K | 11.9M | $1.16 | $32.23 | $65.42 |
 | nemotron-3-ultra-free | 5 | 174K | 1K | 211K | $0.63 | $0.57 | $2.46 |
-| **Total** | **31,926** | **54.9M** | **15.0M** | **7,732.5M** | **$4,381.66** | **$67,058.25** | **$5,255.28** |
+| **Total** | **31,714** | **54.9M** | **14.9M** | **7,661.4M** | **$4,256.87** | **$66,106.59** | **$5,253.93** |
 
-_8,072.8M total tokens processed. 95.8% cache hit rate._
+_8,001.1M total tokens processed. 95.8% cache hit rate._
 
-_$72,313.53 total saved ($67,058.25 caching + $5,255.28 model routing vs all-Opus)._
+_$71,360.53 total saved ($66,106.59 caching + $5,253.93 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.8% of tokens are cache reads, where price differences between models are small._
 
@@ -71,14 +71,14 @@ _Model savings are modest because ~95.8% of tokens are cache reads, where price 
 | gpt-5.6-terra | 726 | 5.1M | 160K | 39.6M | $21.72 | $106.96 | $119.20 |
 | claude-fable-5 | 21 | 42 | 53K | 1.4M | $5.49 | $3.98 | $4.96 |
 | nemotron-3.5-lightning-free | 19 | 284K | 10K | 1.4M | $1.55 | $4.05 | $5.84 |
-| gpt-5.6-luna | 267 | 4.0M | 29K | 11.9M | $1.15 | $32.23 | $64.84 |
+| gpt-5.6-luna | 268 | 4.1M | 29K | 11.9M | $1.16 | $32.23 | $65.42 |
 | nemotron-3-ultra-free | 5 | 174K | 1K | 211K | $0.63 | $0.57 | $2.46 |
 | gpt-5.4-mini | 53 | 1.3M | 4K | 4.0M | $0.46 | $7.64 | $20.76 |
-| **Total** | **54,612** | **107.0M** | **27.1M** | **11,009.3M** | **$9,893.63** | **$90,132.92** | **$8,603.55** |
+| **Total** | **54,613** | **107.0M** | **27.1M** | **11,009.3M** | **$9,893.64** | **$90,132.92** | **$8,604.14** |
 
 _11,555.8M total tokens processed. 95.3% cache hit rate._
 
-_$98,736.47 total saved ($90,132.92 caching + $8,603.55 model routing vs all-Opus)._
+_$98,737.06 total saved ($90,132.92 caching + $8,604.14 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.3% of tokens are cache reads, where price differences between models are small._
 
@@ -117,7 +117,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-24 22:18 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-24 23:29 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
