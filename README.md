@@ -13,14 +13,14 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 6.4h | 37.2h | 128.8h | ~1920h* |
+| Screen time (Mac) | 6.4h | 37.2h | 127.5h | ~1920h* |
 | Interactive human attention | 3.0h | 30.4h | 113.8h | 228.5h |
 | Interactive AI generation | 3.0h | 28.5h | 116.6h | 361.6h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker/headless AI generation | 0.1h | 2.3h | 25.2h | 53.1h |
 | Additive observed work | 6.0h | 61.2h | 255.5h | 643.2h |
-| Interactive sessions | 15 | 30 | 86 | 170 |
-| Worker sessions | 37 | 144 | 766 | 1,526 |
+| Interactive sessions | 16 | 31 | 87 | 171 |
+| Worker sessions | 39 | 146 | 768 | 1,528 |
 
 _Screen time from macos-knowledge-db:/app/usage-union; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -34,26 +34,26 @@ _AI session 365-day totals cover 60 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 12,220 | 24K | 7.7M | 4,073.2M | $1,930.25 | $54,988.48 | $0.00 |
-| claude-sonnet-5 | 7,299 | 14K | 4.0M | 2,401.1M | $1,175.56 | $6,483.22 | $3,125.94 |
-| gpt-5.6-sol | 6,943 | 30.5M | 1.4M | 569.7M | $513.44 | $1,538.20 | $1,134.53 |
-| claude-opus-4-8 | 217 | 434 | 158K | 132.2M | $250.72 | $1,784.75 | $0.00 |
+| claude-opus-5 | 12,125 | 24K | 7.6M | 4,058.3M | $1,919.54 | $54,787.43 | $0.00 |
+| claude-sonnet-5 | 7,417 | 14K | 4.1M | 2,454.0M | $1,199.42 | $6,625.89 | $3,192.54 |
+| gpt-5.6-sol | 6,913 | 30.5M | 1.4M | 569.8M | $513.42 | $1,538.54 | $1,134.74 |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | $136.60 | $694.71 | $0.00 |
-| big-pickle | 2,767 | 9.5M | 689K | 258.4M | $125.47 | $0.00 | $581.95 |
+| big-pickle | 2,692 | 9.4M | 673K | 253.1M | $123.44 | $0.00 | $572.47 |
+| claude-opus-4-8 | 30 | 60 | 29K | 20.9M | $47.38 | $282.21 | $0.00 |
 | deepseek-v4-flash-free | 530 | 3.0M | 297K | 55.6M | $33.22 | $150.33 | $120.91 |
 | gpt-5.6-terra | 725 | 5.1M | 160K | 39.6M | $21.65 | $106.96 | $118.73 |
 | gpt-5.5 | 409 | 2.1M | 111K | 51.6M | $20.43 | $139.40 | $93.97 |
-| claude-fable-5 | 21 | 42 | 53K | 1.4M | $5.49 | $3.98 | $4.96 |
+| claude-fable-5 | 11 | 22 | 34K | 1.1M | $4.70 | $3.07 | $3.46 |
+| gpt-5.6-luna | 343 | 6.0M | 43K | 20.7M | $1.74 | $56.06 | $99.78 |
 | nemotron-3.5-lightning-free | 19 | 284K | 10K | 1.4M | $1.55 | $4.05 | $5.84 |
-| gpt-5.6-luna | 270 | 4.4M | 29K | 11.9M | $1.23 | $32.23 | $69.89 |
 | nemotron-3-ultra-free | 5 | 174K | 1K | 211K | $0.63 | $0.57 | $2.46 |
-| **Total** | **31,680** | **55.2M** | **14.8M** | **7,648.3M** | **$4,216.24** | **$65,926.88** | **$5,259.19** |
+| **Total** | **31,474** | **56.8M** | **14.6M** | **7,578.2M** | **$4,023.72** | **$64,389.22** | **$5,344.89** |
 
-_7,987.3M total tokens processed. 95.8% cache hit rate._
+_7,917.7M total tokens processed. 95.7% cache hit rate._
 
-_$71,186.07 total saved ($65,926.88 caching + $5,259.19 model routing vs all-Opus)._
+_$69,734.11 total saved ($64,389.22 caching + $5,344.89 model routing vs all-Opus)._
 
-_Model savings are modest because ~95.8% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~95.7% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -61,24 +61,24 @@ _Model savings are modest because ~95.8% of tokens are cache reads, where price 
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-8 | 5,837 | 11K | 6.9M | 1,606.9M | $4,778.46 | $21,693.86 | $0.00 |
 | claude-opus-5 | 12,220 | 24K | 7.7M | 4,073.2M | $1,930.25 | $54,988.48 | $0.00 |
-| claude-sonnet-5 | 10,082 | 20K | 6.2M | 3,190.0M | $1,608.53 | $8,613.26 | $4,200.62 |
-| gpt-5.6-sol | 13,092 | 55.3M | 2.5M | 942.1M | $885.42 | $2,543.85 | $1,949.44 |
-| big-pickle | 6,111 | 21.2M | 1.4M | 552.7M | $264.77 | $0.00 | $1,254.76 |
+| claude-sonnet-5 | 10,200 | 20K | 6.2M | 3,242.9M | $1,632.38 | $8,755.93 | $4,267.22 |
+| gpt-5.6-sol | 13,102 | 55.4M | 2.5M | 943.2M | $886.69 | $2,546.85 | $1,952.44 |
+| big-pickle | 6,115 | 21.3M | 1.4M | 552.8M | $265.21 | $0.00 | $1,256.93 |
 | deepseek-v4-flash-free | 3,290 | 10.5M | 1.1M | 331.3M | $158.30 | $894.53 | $594.45 |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | $136.60 | $694.71 | $0.00 |
 | gpt-5.5 | 2,285 | 8.8M | 389K | 140.5M | $65.29 | $379.59 | $298.33 |
 | claude-sonnet-4-6 | 360 | 468 | 254K | 62.6M | $35.54 | $169.21 | $90.45 |
 | gpt-5.6-terra | 726 | 5.1M | 160K | 39.6M | $21.72 | $106.96 | $119.20 |
 | claude-fable-5 | 21 | 42 | 53K | 1.4M | $5.49 | $3.98 | $4.96 |
+| gpt-5.6-luna | 343 | 6.0M | 43K | 20.7M | $1.74 | $56.06 | $99.78 |
 | nemotron-3.5-lightning-free | 19 | 284K | 10K | 1.4M | $1.55 | $4.05 | $5.84 |
-| gpt-5.6-luna | 270 | 4.4M | 29K | 11.9M | $1.23 | $32.23 | $69.89 |
 | nemotron-3-ultra-free | 5 | 174K | 1K | 211K | $0.63 | $0.57 | $2.46 |
 | gpt-5.4-mini | 53 | 1.3M | 4K | 4.0M | $0.46 | $7.64 | $20.76 |
-| **Total** | **54,626** | **107.5M** | **27.1M** | **11,010.0M** | **$9,894.24** | **$90,132.92** | **$8,611.17** |
+| **Total** | **54,831** | **109.3M** | **27.2M** | **11,072.9M** | **$9,920.31** | **$90,302.43** | **$8,712.82** |
 
-_11,557.0M total tokens processed. 95.3% cache hit rate._
+_11,623.7M total tokens processed. 95.3% cache hit rate._
 
-_$98,744.09 total saved ($90,132.92 caching + $8,611.17 model routing vs all-Opus)._
+_$99,015.25 total saved ($90,302.43 caching + $8,712.82 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.3% of tokens are cache reads, where price differences between models are small._
 
@@ -117,7 +117,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-25 00:11 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-25 03:01 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
