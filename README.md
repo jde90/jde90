@@ -36,7 +36,7 @@ _AI session 365-day totals cover 62 days of local assistant session history (not
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-5 | 11,570 | 23K | 7.2M | 3,886.3M | $1,827.68 | $52,465.77 | $0.00 |
 | claude-sonnet-5 | 8,302 | 16K | 4.6M | 2,775.2M | $1,354.55 | $7,493.24 | $3,607.33 |
-| gpt-5.6-sol | 6,331 | 28.6M | 1.3M | 553.5M | $492.25 | $1,494.68 | $1,088.62 |
+| gpt-5.6-sol | 6,308 | 28.6M | 1.3M | 552.8M | $491.41 | $1,492.77 | $1,086.81 |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | $136.60 | $694.71 | $0.00 |
 | big-pickle | 2,535 | 8.9M | 645K | 240.6M | $117.67 | $0.00 | $544.23 |
 | deepseek-v4-flash-free | 530 | 3.0M | 297K | 55.6M | $33.22 | $150.33 | $120.91 |
@@ -46,11 +46,11 @@ _AI session 365-day totals cover 62 days of local assistant session history (not
 | gpt-5.6-luna | 415 | 7.6M | 55K | 24.8M | $2.19 | $67.10 | $124.37 |
 | nemotron-3.5-lightning-free | 19 | 284K | 10K | 1.4M | $1.55 | $4.05 | $5.84 |
 | nemotron-3-ultra-free | 5 | 174K | 1K | 211K | $0.63 | $0.57 | $2.46 |
-| **Total** | **31,105** | **56.0M** | **14.6M** | **7,681.9M** | **$4,012.85** | **$62,619.75** | **$5,709.73** |
+| **Total** | **31,082** | **55.9M** | **14.6M** | **7,681.2M** | **$4,012.01** | **$62,617.84** | **$5,707.92** |
 
-_8,024.3M total tokens processed. 95.7% cache hit rate._
+_8,023.5M total tokens processed. 95.7% cache hit rate._
 
-_$68,329.48 total saved ($62,619.75 caching + $5,709.73 model routing vs all-Opus)._
+_$68,325.76 total saved ($62,617.84 caching + $5,707.92 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.7% of tokens are cache reads, where price differences between models are small._
 
@@ -116,7 +116,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-26 12:21 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-26 13:11 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
