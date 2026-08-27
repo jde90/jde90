@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 0.1h | 1.6h | 20.0h | 53.5h |
 | Additive observed work | 0.5h | 46.5h | 241.2h | 657.8h |
 | Interactive sessions | 2 | 28 | 85 | 175 |
-| Worker sessions | 30 | 153 | 690 | 1,580 |
+| Worker sessions | 33 | 156 | 693 | 1,583 |
 
 _Screen time from macos-knowledge-db:/app/usage-union; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -34,23 +34,23 @@ _AI session 365-day totals cover 63 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 11,307 | 22K | 7.1M | 3,855.9M | $1,813.95 | $52,055.38 | $0.00 |
+| claude-opus-5 | 11,162 | 22K | 7.0M | 3,824.5M | $1,801.88 | $51,631.25 | $0.00 |
 | claude-sonnet-5 | 8,339 | 16K | 4.6M | 2,788.3M | $1,362.46 | $7,528.49 | $3,624.02 |
-| gpt-5.6-sol | 5,853 | 27.2M | 1.2M | 540.4M | $475.42 | $1,459.14 | $1,052.02 |
+| gpt-5.6-sol | 5,794 | 26.9M | 1.2M | 538.8M | $473.29 | $1,454.80 | $1,047.24 |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | $136.60 | $694.71 | $0.00 |
 | big-pickle | 2,436 | 8.6M | 632K | 232.8M | $114.15 | $0.00 | $526.88 |
 | deepseek-v4-flash-free | 530 | 3.0M | 297K | 55.6M | $33.22 | $150.33 | $120.91 |
 | gpt-5.6-terra | 725 | 5.1M | 160K | 39.6M | $21.65 | $106.96 | $118.73 |
 | gpt-5.5 | 252 | 1.2M | 69K | 29.5M | $12.00 | $79.73 | $55.11 |
 | claude-fable-5 | 9 | 18 | 32K | 1.0M | $4.43 | $2.93 | $3.26 |
-| gpt-5.6-luna | 438 | 8.4M | 56K | 25.1M | $2.37 | $68.03 | $134.79 |
+| gpt-5.6-luna | 441 | 8.4M | 56K | 25.3M | $2.38 | $68.34 | $135.40 |
 | nemotron-3.5-lightning-free | 19 | 284K | 10K | 1.4M | $1.55 | $4.05 | $5.84 |
 | nemotron-3-ultra-free | 5 | 174K | 1K | 211K | $0.63 | $0.57 | $2.46 |
-| **Total** | **30,168** | **54.2M** | **14.4M** | **7,621.7M** | **$3,978.43** | **$62,150.33** | **$5,644.02** |
+| **Total** | **29,967** | **54.0M** | **14.4M** | **7,588.8M** | **$3,964.24** | **$61,722.18** | **$5,639.85** |
 
-_7,962.3M total tokens processed. 95.7% cache hit rate._
+_7,928.7M total tokens processed. 95.7% cache hit rate._
 
-_$67,794.35 total saved ($62,150.33 caching + $5,644.02 model routing vs all-Opus)._
+_$67,362.03 total saved ($61,722.18 caching + $5,639.85 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.7% of tokens are cache reads, where price differences between models are small._
 
@@ -69,15 +69,15 @@ _Model savings are modest because ~95.7% of tokens are cache reads, where price 
 | claude-sonnet-4-6 | 360 | 468 | 254K | 62.6M | $35.54 | $169.21 | $90.45 |
 | gpt-5.6-terra | 726 | 5.1M | 160K | 39.6M | $21.72 | $106.96 | $119.20 |
 | claude-fable-5 | 21 | 42 | 53K | 1.4M | $5.49 | $3.98 | $4.96 |
-| gpt-5.6-luna | 438 | 8.4M | 56K | 25.1M | $2.37 | $68.03 | $134.79 |
+| gpt-5.6-luna | 441 | 8.4M | 56K | 25.3M | $2.38 | $68.34 | $135.40 |
 | nemotron-3.5-lightning-free | 19 | 284K | 10K | 1.4M | $1.55 | $4.05 | $5.84 |
 | nemotron-3-ultra-free | 5 | 174K | 1K | 211K | $0.63 | $0.57 | $2.46 |
 | gpt-5.4-mini | 53 | 1.3M | 4K | 4.0M | $0.46 | $7.64 | $20.76 |
-| **Total** | **55,882** | **111.9M** | **27.7M** | **11,414.5M** | **$10,087.41** | **$91,224.10** | **$9,187.84** |
+| **Total** | **55,885** | **112.0M** | **27.7M** | **11,414.6M** | **$10,087.42** | **$91,224.41** | **$9,188.45** |
 
-_11,983.4M total tokens processed. 95.3% cache hit rate._
+_11,983.5M total tokens processed. 95.3% cache hit rate._
 
-_$100,411.94 total saved ($91,224.10 caching + $9,187.84 model routing vs all-Opus)._
+_$100,412.86 total saved ($91,224.41 caching + $9,188.45 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.3% of tokens are cache reads, where price differences between models are small._
 
@@ -116,7 +116,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-27 16:17 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-27 20:01 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
