@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 0.1h | 0.8h | 14.5h | 53.6h |
 | Additive observed work | 0.1h | 32.0h | 212.5h | 658.0h |
 | Interactive sessions | 0 | 22 | 77 | 175 |
-| Worker sessions | 24 | 144 | 627 | 1,613 |
+| Worker sessions | 25 | 145 | 628 | 1,614 |
 
 _Screen time from macos-knowledge-db:/app/usage-union; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -36,7 +36,7 @@ _AI session 365-day totals cover 65 days of local assistant session history (not
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-5 | 9,563 | 19K | 6.1M | 3,231.5M | $1,523.28 | $43,626.37 | $0.00 |
 | claude-sonnet-5 | 8,338 | 16K | 4.6M | 2,788.3M | $1,362.46 | $7,528.49 | $3,624.02 |
-| gpt-5.6-sol | 5,193 | 24.8M | 1.2M | 521.4M | $450.05 | $1,407.82 | $996.18 |
+| gpt-5.6-sol | 5,152 | 24.7M | 1.2M | 520.3M | $448.67 | $1,404.93 | $993.19 |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | $136.60 | $694.71 | $0.00 |
 | big-pickle | 2,198 | 8.1M | 584K | 215.0M | $106.22 | $0.00 | $489.26 |
 | deepseek-v4-flash-free | 530 | 3.0M | 297K | 55.6M | $33.22 | $150.33 | $120.91 |
@@ -46,11 +46,11 @@ _AI session 365-day totals cover 65 days of local assistant session history (not
 | nemotron-3.5-lightning-free | 19 | 284K | 10K | 1.4M | $1.55 | $4.05 | $5.84 |
 | nemotron-3-ultra-free | 5 | 174K | 1K | 211K | $0.63 | $0.57 | $2.46 |
 | gpt-5.5 | 6 | 94K | 771 | 93K | $0.29 | $0.25 | $1.30 |
-| **Total** | **27,312** | **51.1M** | **13.3M** | **6,931.8M** | **$3,642.97** | **$53,592.39** | **$5,509.70** |
+| **Total** | **27,271** | **51.0M** | **13.3M** | **6,930.8M** | **$3,641.59** | **$53,589.50** | **$5,506.72** |
 
-_7,244.5M total tokens processed. 95.7% cache hit rate._
+_7,243.3M total tokens processed. 95.7% cache hit rate._
 
-_$59,102.09 total saved ($53,592.39 caching + $5,509.70 model routing vs all-Opus)._
+_$59,096.21 total saved ($53,589.50 caching + $5,506.72 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.7% of tokens are cache reads, where price differences between models are small._
 
@@ -116,7 +116,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-29 08:07 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-29 09:50 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
