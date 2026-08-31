@@ -13,14 +13,14 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 0.3h | 18.9h | 108.9h | ~1795h* |
-| Interactive human attention | 0.0h | 12.0h | 98.5h | 237.5h |
-| Interactive AI generation | 0.0h | 8.3h | 93.8h | 366.9h |
+| Screen time (Mac) | 3.2h | 15.6h | 112h | ~1784h* |
+| Interactive human attention | 2.5h | 11.5h | 96.5h | 240.0h |
+| Interactive AI generation | 3.1h | 8.4h | 90.3h | 370.0h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
-| Worker/headless AI generation | 0.1h | 0.6h | 11.9h | 53.7h |
-| Additive observed work | 0.1h | 20.9h | 204.3h | 658.0h |
-| Interactive sessions | 13 | 28 | 84 | 183 |
-| Worker sessions | 43 | 164 | 617 | 1,653 |
+| Worker/headless AI generation | 0.1h | 0.6h | 9.2h | 53.8h |
+| Additive observed work | 5.7h | 20.6h | 196.1h | 663.8h |
+| Interactive sessions | 13 | 24 | 83 | 183 |
+| Worker sessions | 23 | 145 | 585 | 1,655 |
 
 _Screen time from macos-knowledge-db:/app/usage-union; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -28,7 +28,7 @@ _Periods are completed local calendar days ending at midnight; today is excluded
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 66 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 67 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
@@ -36,20 +36,20 @@ _AI session 365-day totals cover 66 days of local assistant session history (not
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-sonnet-5 | 8,204 | 16K | 4.6M | 2,852.8M | $1,391.23 | $7,702.77 | $3,700.33 |
 | claude-opus-5 | 8,394 | 16K | 5.3M | 2,838.2M | $1,321.93 | $38,316.23 | $0.00 |
-| gpt-5.6-sol | 4,634 | 23.3M | 1.2M | 518.6M | $440.20 | $1,400.29 | $976.19 |
+| gpt-5.6-sol | 4,593 | 23.2M | 1.2M | 517.5M | $438.59 | $1,397.49 | $972.84 |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | $136.60 | $694.71 | $0.00 |
 | big-pickle | 2,181 | 8.1M | 582K | 214.2M | $105.78 | $0.00 | $487.22 |
 | deepseek-v4-flash-free | 530 | 3.0M | 297K | 55.6M | $33.22 | $150.33 | $120.91 |
 | gpt-5.6-terra | 739 | 5.4M | 161K | 40.0M | $22.45 | $108.23 | $123.46 |
 | claude-fable-5 | 9 | 18 | 32K | 1.0M | $4.43 | $2.93 | $3.26 |
-| gpt-5.6-luna | 479 | 10.3M | 57K | 25.9M | $2.77 | $70.09 | $158.55 |
+| gpt-5.6-luna | 481 | 10.4M | 57K | 25.9M | $2.79 | $70.09 | $159.79 |
 | nemotron-3.5-lightning-free | 19 | 284K | 10K | 1.4M | $1.55 | $4.05 | $5.84 |
 | nemotron-3-ultra-free | 5 | 174K | 1K | 211K | $0.63 | $0.57 | $2.46 |
-| **Total** | **25,449** | **50.8M** | **12.5M** | **6,599.9M** | **$3,460.79** | **$48,450.21** | **$5,578.22** |
+| **Total** | **25,410** | **50.7M** | **12.4M** | **6,598.9M** | **$3,459.20** | **$48,447.41** | **$5,576.11** |
 
-_6,895.0M total tokens processed. 95.7% cache hit rate._
+_6,894.0M total tokens processed. 95.7% cache hit rate._
 
-_$54,028.42 total saved ($48,450.21 caching + $5,578.22 model routing vs all-Opus)._
+_$54,023.52 total saved ($48,447.41 caching + $5,576.11 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.7% of tokens are cache reads, where price differences between models are small._
 
@@ -68,15 +68,15 @@ _Model savings are modest because ~95.7% of tokens are cache reads, where price 
 | claude-sonnet-4-6 | 360 | 468 | 254K | 62.6M | $35.54 | $169.21 | $90.45 |
 | gpt-5.6-terra | 740 | 5.5M | 161K | 40.0M | $22.53 | $108.23 | $123.93 |
 | claude-fable-5 | 21 | 42 | 53K | 1.4M | $5.49 | $3.98 | $4.96 |
-| gpt-5.6-luna | 507 | 10.4M | 59K | 26.7M | $2.82 | $72.18 | $160.90 |
+| gpt-5.6-luna | 509 | 10.5M | 59K | 26.7M | $2.84 | $72.18 | $162.14 |
 | nemotron-3.5-lightning-free | 19 | 284K | 10K | 1.4M | $1.55 | $4.05 | $5.84 |
 | nemotron-3-ultra-free | 5 | 174K | 1K | 211K | $0.63 | $0.57 | $2.46 |
 | gpt-5.4-mini | 53 | 1.3M | 4K | 4.0M | $0.46 | $7.64 | $20.76 |
-| **Total** | **56,848** | **115.4M** | **28.2M** | **11,687.5M** | **$10,216.49** | **$91,961.23** | **$9,586.63** |
+| **Total** | **56,850** | **115.5M** | **28.2M** | **11,687.5M** | **$10,216.51** | **$91,961.23** | **$9,587.87** |
 
-_12,267.7M total tokens processed. 95.3% cache hit rate._
+_12,267.8M total tokens processed. 95.3% cache hit rate._
 
-_$101,547.86 total saved ($91,961.23 caching + $9,586.63 model routing vs all-Opus)._
+_$101,549.10 total saved ($91,961.23 caching + $9,587.87 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.3% of tokens are cache reads, where price differences between models are small._
 
@@ -84,10 +84,10 @@ _Model savings are modest because ~95.3% of tokens are cache reads, where price 
 
 | App | Yesterday | Prior 7 Days | Prior 28 Days |
 | --- | ---: | ---: | ---: |
-| Tabby | 1% | 68% | 80% |
-| Safari | 99% | 29% | 18% |
+| Tabby | 87% | 67% | 80% |
+| Safari | 12% | 29% | 18% |
 | app | -- | -- | 1% |
-| Finder | -- | 1% | -- |
+| Finder | 1% | 1% | -- |
 | QuickTimePlayerX | -- | 1% | -- |
 | Preview | -- | 1% | -- |
 | TextEdit | -- | -- | -- |
@@ -115,7 +115,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-31 04:12 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-31 07:37 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
