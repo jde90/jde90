@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 0.1h | 0.6h | 9.2h | 53.8h |
 | Additive observed work | 5.7h | 20.6h | 196.1h | 663.8h |
 | Interactive sessions | 13 | 24 | 83 | 183 |
-| Worker sessions | 34 | 156 | 596 | 1,666 |
+| Worker sessions | 35 | 157 | 597 | 1,667 |
 
 _Screen time from macos-knowledge-db:/app/usage-union; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -35,21 +35,21 @@ _AI session 365-day totals cover 67 days of local assistant session history (not
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-sonnet-5 | 8,894 | 18K | 5.0M | 3,184.5M | $1,529.12 | $8,598.16 | $4,122.65 |
-| claude-opus-5 | 8,248 | 16K | 5.2M | 2,783.7M | $1,297.77 | $37,581.12 | $0.00 |
-| gpt-5.6-sol | 4,436 | 23.1M | 1.2M | 542.4M | $451.62 | $1,464.69 | $1,005.49 |
+| claude-opus-5 | 8,159 | 16K | 5.2M | 2,739.4M | $1,277.87 | $36,982.73 | $0.00 |
+| gpt-5.6-sol | 4,400 | 23.0M | 1.2M | 540.9M | $450.07 | $1,460.46 | $1,002.14 |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | $136.60 | $694.71 | $0.00 |
 | big-pickle | 2,166 | 8.1M | 579K | 213.8M | $105.44 | $0.00 | $485.97 |
 | deepseek-v4-flash-free | 524 | 3.0M | 292K | 55.5M | $32.93 | $149.99 | $120.24 |
 | gpt-5.6-terra | 744 | 5.5M | 161K | 40.2M | $22.74 | $108.75 | $125.19 |
 | claude-fable-5 | 9 | 18 | 32K | 1.0M | $4.43 | $2.93 | $3.26 |
-| gpt-5.6-luna | 491 | 10.7M | 57K | 26.1M | $2.86 | $70.71 | $163.49 |
+| gpt-5.6-luna | 492 | 10.7M | 57K | 26.2M | $2.86 | $70.82 | $163.70 |
 | nemotron-3.5-lightning-free | 19 | 284K | 10K | 1.4M | $1.55 | $4.05 | $5.84 |
 | nemotron-3-ultra-free | 5 | 174K | 1K | 211K | $0.63 | $0.57 | $2.46 |
-| **Total** | **25,791** | **51.0M** | **12.8M** | **6,900.9M** | **$3,585.69** | **$48,675.69** | **$6,034.59** |
+| **Total** | **25,667** | **51.0M** | **12.7M** | **6,855.0M** | **$3,564.24** | **$48,073.17** | **$6,031.45** |
 
-_7,203.5M total tokens processed. 95.8% cache hit rate._
+_7,156.0M total tokens processed. 95.8% cache hit rate._
 
-_$54,710.28 total saved ($48,675.69 caching + $6,034.59 model routing vs all-Opus)._
+_$54,104.62 total saved ($48,073.17 caching + $6,031.45 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.8% of tokens are cache reads, where price differences between models are small._
 
@@ -68,15 +68,15 @@ _Model savings are modest because ~95.8% of tokens are cache reads, where price 
 | claude-sonnet-4-6 | 360 | 468 | 254K | 62.6M | $35.54 | $169.21 | $90.45 |
 | gpt-5.6-terra | 745 | 5.6M | 161K | 40.2M | $22.82 | $108.75 | $125.66 |
 | claude-fable-5 | 21 | 42 | 53K | 1.4M | $5.49 | $3.98 | $4.96 |
-| gpt-5.6-luna | 519 | 10.8M | 59K | 26.9M | $2.90 | $72.80 | $165.85 |
+| gpt-5.6-luna | 520 | 10.8M | 59K | 27.0M | $2.91 | $72.91 | $166.05 |
 | nemotron-3.5-lightning-free | 19 | 284K | 10K | 1.4M | $1.55 | $4.05 | $5.84 |
 | nemotron-3-ultra-free | 5 | 174K | 1K | 211K | $0.63 | $0.57 | $2.46 |
 | gpt-5.4-mini | 53 | 1.3M | 4K | 4.0M | $0.46 | $7.64 | $20.76 |
-| **Total** | **57,823** | **117.3M** | **28.7M** | **12,059.8M** | **$10,386.13** | **$92,966.50** | **$10,087.39** |
+| **Total** | **57,824** | **117.3M** | **28.7M** | **12,059.9M** | **$10,386.14** | **$92,966.61** | **$10,087.60** |
 
-_12,651.0M total tokens processed. 95.3% cache hit rate._
+_12,651.1M total tokens processed. 95.3% cache hit rate._
 
-_$103,053.90 total saved ($92,966.50 caching + $10,087.39 model routing vs all-Opus)._
+_$103,054.20 total saved ($92,966.61 caching + $10,087.60 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.3% of tokens are cache reads, where price differences between models are small._
 
@@ -115,7 +115,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-31 21:57 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-31 23:35 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
