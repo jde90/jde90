@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 0.2h | 0.5h | 9.5h | 54.0h |
 | Additive observed work | 9.2h | 43.5h | 228.9h | 701.3h |
 | Interactive sessions | 6 | 17 | 87 | 187 |
-| Worker sessions | 19 | 135 | 636 | 1,706 |
+| Worker sessions | 20 | 136 | 637 | 1,707 |
 
 _Screen time from macos-knowledge-db:/app/usage-union; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -114,7 +114,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-03 09:47 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-03 11:59 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
