@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 0.3h | 0.8h | 9.8h | 54.3h |
 | Additive observed work | 15.2h | 58.6h | 239.2h | 716.5h |
 | Interactive sessions | 6 | 20 | 86 | 190 |
-| Worker sessions | 17 | 132 | 651 | 1,721 |
+| Worker sessions | 18 | 133 | 652 | 1,722 |
 
 _Screen time from macos-knowledge-db:/app/usage-union; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -42,10 +42,10 @@ _AI session 365-day totals cover 71 days of local assistant session history (not
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | $24.14 | $159.52 | $94.57 |
 | deepseek-v4-flash-free | 339 | 2.5M | 227K | 39.1M | $23.22 | $105.61 | $91.55 |
 | gpt-5.6-terra | 744 | 5.5M | 161K | 40.2M | $22.74 | $108.75 | $125.19 |
-| gpt-5.6-luna | 669 | 12.7M | 99K | 46.2M | $3.77 | $125.00 | $215.05 |
+| gpt-5.6-luna | 670 | 12.7M | 99K | 46.2M | $3.77 | $125.00 | $215.05 |
 | nemotron-3.5-lightning-free | 19 | 284K | 10K | 1.4M | $1.55 | $4.05 | $5.84 |
 | nemotron-3-ultra-free | 5 | 174K | 1K | 211K | $0.63 | $0.57 | $2.46 |
-| **Total** | **28,453** | **54.2M** | **14.6M** | **7,980.7M** | **$4,044.51** | **$52,754.49** | **$7,329.88** |
+| **Total** | **28,454** | **54.2M** | **14.6M** | **7,980.7M** | **$4,044.51** | **$52,754.49** | **$7,329.88** |
 
 _8,323.8M total tokens processed. 95.9% cache hit rate._
 
@@ -69,11 +69,11 @@ _Model savings are modest because ~95.9% of tokens are cache reads, where price 
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | $24.14 | $159.52 | $94.57 |
 | gpt-5.6-terra | 745 | 5.6M | 161K | 40.2M | $22.82 | $108.75 | $125.66 |
 | claude-fable-5 | 21 | 42 | 53K | 1.4M | $5.49 | $3.98 | $4.96 |
-| gpt-5.6-luna | 697 | 12.8M | 102K | 47.0M | $3.81 | $127.09 | $217.40 |
+| gpt-5.6-luna | 698 | 12.8M | 102K | 47.0M | $3.81 | $127.09 | $217.40 |
 | nemotron-3.5-lightning-free | 19 | 284K | 10K | 1.4M | $1.55 | $4.05 | $5.84 |
 | nemotron-3-ultra-free | 5 | 174K | 1K | 211K | $0.63 | $0.57 | $2.46 |
 | gpt-5.4-mini | 53 | 1.3M | 4K | 4.0M | $0.46 | $7.64 | $20.76 |
-| **Total** | **63,133** | **127.0M** | **31.5M** | **13,688.6M** | **$11,170.46** | **$102,615.11** | **$11,693.08** |
+| **Total** | **63,134** | **127.0M** | **31.5M** | **13,688.6M** | **$11,170.46** | **$102,615.11** | **$11,693.08** |
 
 _14,346.1M total tokens processed. 95.4% cache hit rate._
 
@@ -116,7 +116,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-04 06:55 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-04 08:27 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
