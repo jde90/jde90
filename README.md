@@ -13,13 +13,13 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 3.4h | 35.7h | 128.5h | ~1802h* |
+| Screen time (Mac) | 3.4h | 35.7h | 123.6h | ~1802h* |
 | Interactive human attention | 3.0h | 30.3h | 112.8h | 267.8h |
 | Interactive AI generation | 2.2h | 51.5h | 124.7h | 418.3h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker/headless AI generation | 0.1h | 1.2h | 8.3h | 54.8h |
 | Additive observed work | 5.3h | 82.9h | 245.8h | 741.0h |
-| Interactive sessions | 122 | 160 | 218 | 330 |
+| Interactive sessions | 123 | 161 | 219 | 331 |
 | Worker sessions | 7 | 113 | 612 | 1,745 |
 
 _Screen time from macos-knowledge-db:/app/usage-union; collection status: ok. *365-day estimate uses observed calendar coverage._
@@ -34,28 +34,27 @@ _AI session 365-day totals cover 73 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5 | 13,420 | 28K | 7.0M | 4,910.1M | 100.0% | 222 | 49.3h |
-| claude-opus-5 | 8,937 | 18K | 5.6M | 2,815.8M | 100.0% | 36 | 43.9h |
+| claude-sonnet-5 | 14,344 | 29K | 7.3M | 5,301.5M | 100.0% | 222 | 53.7h |
+| claude-opus-5 | 8,936 | 18K | 5.6M | 2,815.8M | 100.0% | 36 | 43.9h |
 | gpt-5.6-sol | 3,706 | 21.2M | 1.2M | 497.7M | 95.9% | 39 | 21.4h |
-| big-pickle | 2,943 | 13.2M | 973K | 291.8M | 95.7% | 44 | 20.2h |
+| big-pickle | 2,790 | 12.8M | 923K | 277.2M | 95.6% | 44 | 19.4h |
 | gpt-5.6-terra | 745 | 5.5M | 161K | 40.2M | 87.8% | 134 | 2.8h |
 | gpt-5.6-luna | 688 | 12.7M | 99K | 46.2M | 78.4% | 337 | 4.6h |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | 100.0% | 2 | 1.6h |
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | 97.1% | 1 | 0.5h |
-| deepseek-v4-flash-free | 168 | 1.5M | 163K | 20.2M | 92.9% | 5 | 1.0h |
+| deepseek-v4-flash-free | 155 | 1.4M | 160K | 19.6M | 93.3% | 4 | 0.9h |
 | claude-fable-5 | 120 | 240 | 62K | 23.4M | 100.0% | 1 | 0.6h |
 | nemotron-3-ultra-free | 65 | 1.9M | 6K | 4.5M | 70.2% | 2 | 0.7h |
 | nemotron-3.5-lightning-free | 26 | 642K | 11K | 1.7M | 73.3% | 3 | 0.2h |
-| gpt-5.5 | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **31,302** | **58.7M** | **15.5M** | **8,762.7M** | **99.3%** | **759** | **146.7h** |
+| **Total** | **32,058** | **58.2M** | **15.8M** | **9,138.8M** | **99.4%** | **758** | **150.3h** |
 
-_9,135.2M total tokens processed. 99.3% cache hit rate._
+_9,517.4M total tokens processed. 99.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5 | 17,380 | 36K | 9.7M | 5,922.9M | 100.0% | 253 | 70.1h |
+| claude-sonnet-5 | 18,307 | 38K | 10.1M | 6,314.4M | 100.0% | 255 | 74.6h |
 | claude-opus-5 | 14,378 | 28K | 8.9M | 4,738.4M | 100.0% | 47 | 77.1h |
 | gpt-5.6-sol | 14,264 | 62.2M | 3.0M | 1,104.7M | 94.7% | 788 | 73.1h |
 | big-pickle | 6,933 | 26.7M | 1.8M | 632.6M | 96.0% | 109 | 39.3h |
@@ -74,15 +73,15 @@ _9,135.2M total tokens processed. 99.3% cache hit rate._
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | gpt-5.6-fast | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | claude-opus-4-8-fast | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **66,962** | **132.6M** | **33.0M** | **14,773.3M** | **99.1%** | **1,925** | **341.0h** |
+| **Total** | **67,889** | **132.6M** | **33.3M** | **15,164.9M** | **99.1%** | **1,926** | **345.5h** |
 
-_15,473.2M total tokens processed. 99.1% cache hit rate._
+_15,871.5M total tokens processed. 99.1% cache hit rate._
 
 ## Top Apps by Screen Time
 
 | App | Yesterday | Prior 7 Days | Prior 28 Days |
 | --- | ---: | ---: | ---: |
-| Tabby | 63% | 79% | 79% |
+| Tabby | 63% | 79% | 78% |
 | Safari | 36% | 20% | 20% |
 | app | -- | -- | 1% |
 | Finder | -- | -- | -- |
@@ -113,7 +112,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-07 01:40 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-07 03:49 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
