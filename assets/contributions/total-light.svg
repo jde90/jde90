@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+<title id="title">jde90: Total Contributions</title>
+<desc id="desc">142 cumulative GitHub contributions through 2026-09-06. Updated 2026-09-07 UTC.</desc>
+<defs><linearGradient id="area" x2="0" y2="1"><stop stop-color="#16a34a" stop-opacity=".2"/><stop offset="1" stop-color="#16a34a" stop-opacity=".02"/></linearGradient></defs>
+<rect width="960" height="420" fill="#ffffff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" fill="#24292f">
+<text x="32" y="39" font-size="26" font-weight="600">Total Contributions</text>
+<text x="924" y="39" text-anchor="end" font-size="26" font-weight="600">142</text>
+<text x="32" y="66" font-size="14" fill="#57606a">@jde90 · Cumulative monthly totals · Through 2026-09-06 UTC</text>
+<path d="M76,100.0 H924" stroke="#d0d7de" stroke-width="1"/>
+<text x="64" y="105.0" text-anchor="end" font-size="13" fill="#57606a">142</text>
+<path d="M76,162.5 H924" stroke="#d0d7de" stroke-width="1"/>
+<text x="64" y="167.5" text-anchor="end" font-size="13" fill="#57606a">106</text>
+<path d="M76,225.0 H924" stroke="#d0d7de" stroke-width="1"/>
+<text x="64" y="230.0" text-anchor="end" font-size="13" fill="#57606a">71</text>
+<path d="M76,287.5 H924" stroke="#d0d7de" stroke-width="1"/>
+<text x="64" y="292.5" text-anchor="end" font-size="13" fill="#57606a">36</text>
+<path d="M76,350.0 H924" stroke="#d0d7de" stroke-width="1"/>
+<text x="64" y="355.0" text-anchor="end" font-size="13" fill="#57606a">0</text>
+<text x="76.0" y="377" text-anchor="middle" font-size="13" fill="#57606a">2020-06</text>
+<text x="245.6" y="377" text-anchor="middle" font-size="13" fill="#57606a">2021-09</text>
+<text x="415.2" y="377" text-anchor="middle" font-size="13" fill="#57606a">2022-12</text>
+<text x="584.8" y="377" text-anchor="middle" font-size="13" fill="#57606a">2024-03</text>
+<text x="754.4" y="377" text-anchor="middle" font-size="13" fill="#57606a">2025-06</text>
+<text x="924.0" y="377" text-anchor="middle" font-size="13" fill="#57606a">2026-09</text>
+<path d="M76.0,348.2 L87.3,348.2 L98.6,348.2 L109.9,348.2 L121.2,348.2 L132.5,348.2 L143.8,348.2 L155.1,348.2 L166.5,348.2 L177.8,348.2 L189.1,348.2 L200.4,348.2 L211.7,348.2 L223.0,348.2 L234.3,348.2 L245.6,348.2 L256.9,348.2 L268.2,348.2 L279.5,348.2 L290.8,348.2 L302.1,348.2 L313.4,348.2 L324.7,348.2 L336.1,348.2 L347.4,348.2 L358.7,348.2 L370.0,348.2 L381.3,348.2 L392.6,348.2 L403.9,348.2 L415.2,348.2 L426.5,348.2 L437.8,348.2 L449.1,348.2 L460.4,348.2 L471.7,348.2 L483.0,348.2 L494.3,348.2 L505.7,348.2 L517.0,348.2 L528.3,348.2 L539.6,348.2 L550.9,348.2 L562.2,348.2 L573.5,348.2 L584.8,348.2 L596.1,348.2 L607.4,348.2 L618.7,348.2 L630.0,348.2 L641.3,348.2 L652.6,348.2 L663.9,348.2 L675.3,348.2 L686.6,348.2 L697.9,348.2 L709.2,348.2 L720.5,348.2 L731.8,348.2 L743.1,348.2 L754.4,348.2 L765.7,348.2 L777.0,348.2 L788.3,348.2 L799.6,348.2 L810.9,348.2 L822.2,348.2 L833.5,346.5 L844.9,346.5 L856.2,346.5 L867.5,346.5 L878.8,325.4 L890.1,323.6 L901.4,318.3 L912.7,161.6 L924.0,100.0 L924.0,350 L76,350 Z" fill="url(#area)"/>
+<path d="M76.0,348.2 L87.3,348.2 L98.6,348.2 L109.9,348.2 L121.2,348.2 L132.5,348.2 L143.8,348.2 L155.1,348.2 L166.5,348.2 L177.8,348.2 L189.1,348.2 L200.4,348.2 L211.7,348.2 L223.0,348.2 L234.3,348.2 L245.6,348.2 L256.9,348.2 L268.2,348.2 L279.5,348.2 L290.8,348.2 L302.1,348.2 L313.4,348.2 L324.7,348.2 L336.1,348.2 L347.4,348.2 L358.7,348.2 L370.0,348.2 L381.3,348.2 L392.6,348.2 L403.9,348.2 L415.2,348.2 L426.5,348.2 L437.8,348.2 L449.1,348.2 L460.4,348.2 L471.7,348.2 L483.0,348.2 L494.3,348.2 L505.7,348.2 L517.0,348.2 L528.3,348.2 L539.6,348.2 L550.9,348.2 L562.2,348.2 L573.5,348.2 L584.8,348.2 L596.1,348.2 L607.4,348.2 L618.7,348.2 L630.0,348.2 L641.3,348.2 L652.6,348.2 L663.9,348.2 L675.3,348.2 L686.6,348.2 L697.9,348.2 L709.2,348.2 L720.5,348.2 L731.8,348.2 L743.1,348.2 L754.4,348.2 L765.7,348.2 L777.0,348.2 L788.3,348.2 L799.6,348.2 L810.9,348.2 L822.2,348.2 L833.5,346.5 L844.9,346.5 L856.2,346.5 L867.5,346.5 L878.8,325.4 L890.1,323.6 L901.4,318.3 L912.7,161.6 L924.0,100.0" fill="none" stroke="#16a34a" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="924.0" cy="100.0" r="4" fill="#16a34a"/>
+<text x="32" y="406" font-size="12" fill="#57606a">Source: GitHub · Includes all six contribution types · Updated 2026-09-07 UTC</text>
+</g></svg>
