@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 0.0h | 1.2h | 7.0h | 55.1h |
 | Additive observed work | 12.7h | 103.1h | 267.9h | 795.2h |
 | Interactive sessions | 23 | 196 | 256 | 376 |
-| Worker sessions | 40 | 101 | 590 | 1,788 |
+| Worker sessions | 41 | 102 | 591 | 1,789 |
 
 _Screen time from macos-knowledge-db:/app/usage-union; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -34,11 +34,11 @@ _AI session 365-day totals cover 76 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5 | 17,274 | 35K | 8.6M | 6,700.8M | 100.0% | 228 | 82.0h |
+| claude-sonnet-5 | 17,225 | 35K | 8.6M | 6,683.8M | 100.0% | 228 | 81.8h |
 | claude-opus-5 | 7,026 | 14K | 4.2M | 2,132.9M | 100.0% | 36 | 35.2h |
 | big-pickle | 3,252 | 17.4M | 1.5M | 334.0M | 95.0% | 42 | 22.3h |
 | gpt-5.6-sol | 2,781 | 15.3M | 848K | 389.9M | 96.2% | 19 | 15.8h |
-| gpt-5.6-luna | 819 | 14.2M | 132K | 61.6M | 81.2% | 346 | 5.4h |
+| gpt-5.6-luna | 820 | 14.3M | 132K | 61.6M | 81.1% | 347 | 5.4h |
 | gpt-5.6-terra | 617 | 4.6M | 142K | 50.7M | 91.6% | 58 | 2.7h |
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | 97.1% | 1 | 0.5h |
 | deepseek-v4-flash-free | 155 | 1.4M | 160K | 19.6M | 93.3% | 4 | 0.9h |
@@ -47,9 +47,9 @@ _AI session 365-day totals cover 76 days of local assistant session history (not
 | nemotron-3.5-lightning-free | 29 | 930K | 12K | 1.7M | 65.5% | 6 | 0.3h |
 | claude-haiku-4-5 | 5 | 17 | 1K | 103K | 100.0% | 4 | 0.0h |
 | mimo-v2.5-free | 5 | 454K | 3K | 16K | 3.5% | 5 | 0.0h |
-| **Total** | **32,376** | **58.2M** | **15.9M** | **9,778.7M** | **99.4%** | **690** | **166.5h** |
+| **Total** | **32,328** | **58.3M** | **15.8M** | **9,761.6M** | **99.4%** | **691** | **166.3h** |
 
-_10,174.5M total tokens processed. 99.4% cache hit rate._
+_10,157.3M total tokens processed. 99.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -63,7 +63,7 @@ _10,174.5M total tokens processed. 99.4% cache hit rate._
 | deepseek-v4-flash-free | 3,290 | 10.5M | 1.1M | 331.3M | 96.9% | 37 | 14.8h |
 | gpt-5.5 | 2,285 | 8.8M | 389K | 140.5M | 94.1% | 301 | 9.8h |
 | gpt-5.6-terra | 1,157 | 8.6M | 253K | 79.4M | 90.2% | 163 | 4.6h |
-| gpt-5.6-luna | 850 | 14.4M | 135K | 62.4M | 81.2% | 353 | 5.5h |
+| gpt-5.6-luna | 851 | 14.5M | 135K | 62.4M | 81.1% | 354 | 5.5h |
 | claude-sonnet-4-6 | 360 | 468 | 254K | 62.6M | 100.0% | 3 | 1.8h |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | 100.0% | 2 | 1.6h |
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | 97.1% | 1 | 0.5h |
@@ -76,9 +76,9 @@ _10,174.5M total tokens processed. 99.4% cache hit rate._
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | gpt-5.6-fast | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | claude-opus-4-8-fast | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **72,862** | **144.9M** | **35.8M** | **16,890.1M** | **99.1%** | **1,993** | **383.5h** |
+| **Total** | **72,863** | **145.0M** | **35.8M** | **16,890.1M** | **99.1%** | **1,994** | **383.5h** |
 
-_17,656.7M total tokens processed. 99.1% cache hit rate._
+_17,656.8M total tokens processed. 99.1% cache hit rate._
 
 ## Top Apps by Screen Time
 
@@ -115,7 +115,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-10 03:21 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-10 04:19 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
