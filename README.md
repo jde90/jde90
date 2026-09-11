@@ -19,8 +19,8 @@
 | Worker-classified human attention | 0.8h | 0.8h | 0.8h | 0.8h |
 | Worker/headless AI generation | 2.7h | 3.7h | 9.4h | 57.8h |
 | Additive observed work | 17.0h | 110.9h | 276.3h | 812.2h |
-| Interactive sessions | 23 | 197 | 258 | 379 |
-| Worker sessions | 104 | 148 | 645 | 1,852 |
+| Interactive sessions | 24 | 198 | 259 | 380 |
+| Worker sessions | 107 | 151 | 648 | 1,855 |
 
 _Screen time from macos-knowledge-db:/app/usage-union; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -34,11 +34,11 @@ _AI session 365-day totals cover 77 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5 | 17,396 | 36K | 8.6M | 6,722.2M | 100.0% | 228 | 82.5h |
-| claude-opus-5 | 7,403 | 15K | 4.2M | 2,178.7M | 100.0% | 68 | 36.4h |
+| claude-sonnet-5 | 17,385 | 36K | 8.6M | 6,728.6M | 100.0% | 227 | 82.4h |
+| claude-opus-5 | 7,305 | 14K | 4.2M | 2,162.2M | 100.0% | 70 | 36.1h |
 | big-pickle | 3,261 | 17.8M | 1.6M | 334.5M | 94.9% | 43 | 22.3h |
-| gpt-5.6-sol | 2,789 | 15.6M | 851K | 390.7M | 96.1% | 18 | 15.9h |
-| gpt-5.6-luna | 879 | 16.0M | 140K | 64.6M | 80.1% | 371 | 5.7h |
+| gpt-5.6-sol | 2,795 | 15.7M | 854K | 391.2M | 96.1% | 19 | 15.9h |
+| gpt-5.6-luna | 880 | 16.1M | 140K | 64.6M | 80.0% | 372 | 5.7h |
 | gpt-5.6-terra | 805 | 5.6M | 181K | 68.4M | 92.4% | 66 | 3.8h |
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | 97.1% | 1 | 0.5h |
 | deepseek-v4-flash-free | 155 | 1.4M | 160K | 19.6M | 93.3% | 4 | 0.9h |
@@ -46,26 +46,27 @@ _AI session 365-day totals cover 77 days of local assistant session history (not
 | deepseek-v4-flash | 71 | 178K | 26K | 13.5M | 98.7% | 1 | 0.1h |
 | nemotron-3-ultra-free | 66 | 2.0M | 6K | 4.5M | 68.6% | 3 | 0.7h |
 | nemotron-3.5-lightning-free | 29 | 930K | 12K | 1.7M | 65.5% | 6 | 0.3h |
+| gpt-6-astra | 28 | 110K | 6K | 2.2M | 95.3% | 1 | 0.1h |
 | claude-haiku-4-5 | 5 | 17 | 1K | 103K | 100.0% | 4 | 0.0h |
 | mimo-v2.5-free | 5 | 454K | 3K | 16K | 3.5% | 5 | 0.0h |
 | qwen2.5:14b-instruct-q4_K_M | 3 | 6K | 408 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **33,215** | **62.0M** | **15.9M** | **9,881.4M** | **99.4%** | **754** | **169.8h** |
+| **Total** | **33,141** | **62.3M** | **15.9M** | **9,874.1M** | **99.4%** | **757** | **169.7h** |
 
-_10,287.4M total tokens processed. 99.4% cache hit rate._
+_10,278.9M total tokens processed. 99.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5 | 21,923 | 45K | 11.7M | 7,928.9M | 100.0% | 263 | 105.5h |
-| claude-opus-5 | 15,384 | 30K | 9.2M | 4,923.1M | 100.0% | 89 | 80.7h |
-| gpt-5.6-sol | 14,314 | 63.7M | 3.0M | 1,111.7M | 94.6% | 789 | 73.5h |
+| claude-sonnet-5 | 22,019 | 45K | 11.7M | 7,978.7M | 100.0% | 263 | 105.8h |
+| claude-opus-5 | 15,404 | 30K | 9.2M | 4,925.9M | 100.0% | 91 | 80.7h |
+| gpt-5.6-sol | 14,320 | 63.8M | 3.0M | 1,112.2M | 94.6% | 790 | 73.5h |
 | big-pickle | 7,700 | 32.9M | 2.5M | 716.0M | 95.6% | 117 | 43.4h |
 | claude-opus-4-8 | 5,837 | 11K | 6.9M | 1,606.9M | 100.0% | 46 | 42.5h |
 | deepseek-v4-flash-free | 3,290 | 10.5M | 1.1M | 331.3M | 96.9% | 37 | 14.8h |
 | gpt-5.5 | 2,285 | 8.8M | 389K | 140.5M | 94.1% | 301 | 9.8h |
 | gpt-5.6-terra | 1,345 | 9.5M | 291K | 97.2M | 91.0% | 171 | 5.7h |
-| gpt-5.6-luna | 910 | 16.3M | 142K | 65.4M | 80.0% | 378 | 5.7h |
+| gpt-5.6-luna | 911 | 16.3M | 142K | 65.4M | 80.0% | 379 | 5.7h |
 | claude-sonnet-4-6 | 360 | 468 | 254K | 62.6M | 100.0% | 3 | 1.8h |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | 100.0% | 2 | 1.6h |
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | 97.1% | 1 | 0.5h |
@@ -74,15 +75,16 @@ _10,287.4M total tokens processed. 99.4% cache hit rate._
 | nemotron-3-ultra-free | 66 | 2.0M | 6K | 4.5M | 68.6% | 3 | 0.7h |
 | gpt-5.4-mini | 53 | 1.3M | 4K | 4.0M | 75.1% | 1 | 1.2h |
 | nemotron-3.5-lightning-free | 29 | 930K | 12K | 1.7M | 65.5% | 6 | 0.3h |
+| gpt-6-astra | 28 | 110K | 6K | 2.2M | 95.3% | 1 | 0.1h |
 | claude-haiku-4-5 | 5 | 17 | 1K | 103K | 100.0% | 4 | 0.0h |
 | mimo-v2.5-free | 5 | 454K | 3K | 16K | 3.5% | 5 | 0.0h |
 | qwen2.5:14b-instruct-q4_K_M | 3 | 6K | 408 | 0 | 0.0% | 1 | 0.0h |
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | gpt-5.6-fast | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | claude-opus-4-8-fast | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **74,209** | **148.8M** | **36.2M** | **17,143.4M** | **99.1%** | **2,060** | **388.7h** |
+| **Total** | **74,360** | **149.1M** | **36.3M** | **17,198.8M** | **99.1%** | **2,064** | **389.3h** |
 
-_17,927.9M total tokens processed. 99.1% cache hit rate._
+_17,985.1M total tokens processed. 99.1% cache hit rate._
 
 ## Top Apps by Screen Time
 
@@ -119,7 +121,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-11 01:02 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-11 02:32 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
