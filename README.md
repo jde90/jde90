@@ -13,14 +13,14 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 4.6h | 37.8h | 125.7h | ~1821h* |
-| Interactive human attention | 4.4h | 32.6h | 116.1h | 293.6h |
-| Interactive AI generation | 2.4h | 65.9h | 151.9h | 467.0h |
+| Screen time (Mac) | 4.8h | 36.6h | 130.1h | ~1820h* |
+| Interactive human attention | 3.5h | 32.3h | 111.7h | 297.1h |
+| Interactive AI generation | 2.3h | 53.2h | 149.1h | 469.3h |
 | Worker-classified human attention | 0.0h | 0.8h | 0.8h | 0.8h |
-| Worker/headless AI generation | 3.2h | 6.7h | 12.3h | 61.0h |
-| Additive observed work | 10.0h | 105.7h | 280.9h | 822.2h |
-| Interactive sessions | 12 | 196 | 260 | 381 |
-| Worker sessions | 126 | 199 | 669 | 1,918 |
+| Worker/headless AI generation | 2.2h | 8.5h | 13.2h | 63.2h |
+| Additive observed work | 8.0h | 94.6h | 274.6h | 830.2h |
+| Interactive sessions | 5 | 173 | 253 | 381 |
+| Worker sessions | 59 | 182 | 574 | 1,920 |
 
 _Screen time from macos-knowledge-db:/app/usage-union; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -28,17 +28,17 @@ _Periods are completed local calendar days ending at midnight; today is excluded
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 78 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 79 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5 | 17,655 | 36K | 8.7M | 6,823.3M | 100.0% | 219 | 83.5h |
+| claude-sonnet-5 | 17,652 | 36K | 8.7M | 6,823.1M | 100.0% | 217 | 83.5h |
 | claude-opus-5 | 6,957 | 14K | 3.8M | 1,894.1M | 100.0% | 104 | 33.3h |
 | big-pickle | 3,375 | 18.6M | 1.6M | 347.6M | 94.9% | 43 | 22.7h |
 | gpt-5.6-sol | 2,826 | 16.0M | 877K | 394.9M | 96.1% | 19 | 16.4h |
-| gpt-5.6-luna | 993 | 18.4M | 174K | 74.6M | 80.2% | 397 | 6.3h |
+| gpt-5.6-luna | 995 | 18.6M | 174K | 74.6M | 80.1% | 399 | 6.4h |
 | gpt-5.6-terra | 809 | 5.7M | 181K | 68.6M | 92.3% | 67 | 3.8h |
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | 97.1% | 1 | 0.5h |
 | deepseek-v4-flash-free | 154 | 1.4M | 160K | 19.6M | 93.3% | 3 | 0.9h |
@@ -50,9 +50,9 @@ _AI session 365-day totals cover 78 days of local assistant session history (not
 | claude-haiku-4-5 | 5 | 17 | 1K | 103K | 100.0% | 4 | 0.0h |
 | mimo-v2.5-free | 5 | 454K | 3K | 16K | 3.5% | 5 | 0.0h |
 | qwen2.5:14b-instruct-q4_K_M | 3 | 6K | 408 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **33,354** | **66.1M** | **15.7M** | **9,731.2M** | **99.3%** | **810** | **169.4h** |
+| **Total** | **33,353** | **66.2M** | **15.7M** | **9,731.1M** | **99.3%** | **810** | **169.4h** |
 
-_10,135.5M total tokens processed. 99.3% cache hit rate._
+_10,135.4M total tokens processed. 99.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -66,7 +66,7 @@ _10,135.5M total tokens processed. 99.3% cache hit rate._
 | deepseek-v4-flash-free | 3,290 | 10.5M | 1.1M | 331.3M | 96.9% | 37 | 14.8h |
 | gpt-5.5 | 2,285 | 8.8M | 389K | 140.5M | 94.1% | 301 | 9.8h |
 | gpt-5.6-terra | 1,349 | 9.6M | 291K | 97.3M | 90.9% | 172 | 5.7h |
-| gpt-5.6-luna | 1,024 | 18.6M | 177K | 75.4M | 80.2% | 404 | 6.4h |
+| gpt-5.6-luna | 1,026 | 18.8M | 177K | 75.4M | 80.0% | 406 | 6.4h |
 | claude-sonnet-4-6 | 360 | 468 | 254K | 62.6M | 100.0% | 3 | 1.8h |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | 100.0% | 2 | 1.6h |
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | 97.1% | 1 | 0.5h |
@@ -82,18 +82,18 @@ _10,135.5M total tokens processed. 99.3% cache hit rate._
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | gpt-5.6-fast | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | claude-opus-4-8-fast | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **75,530** | **152.9M** | **36.6M** | **17,433.1M** | **99.1%** | **2,127** | **393.9h** |
+| **Total** | **75,532** | **153.0M** | **36.6M** | **17,433.1M** | **99.1%** | **2,129** | **393.9h** |
 
-_18,234.8M total tokens processed. 99.1% cache hit rate._
+_18,235.0M total tokens processed. 99.1% cache hit rate._
 
 ## Top Apps by Screen Time
 
 | App | Yesterday | Prior 7 Days | Prior 28 Days |
 | --- | ---: | ---: | ---: |
-| Tabby | 92% | 82% | 80% |
-| Safari | 8% | 15% | 19% |
-| Finder | -- | 1% | 1% |
-| QuickTimePlayerX | -- | 1% | -- |
+| Tabby | 77% | 81% | 80% |
+| Safari | 11% | 15% | 18% |
+| Finder | 7% | 2% | 1% |
+| QuickTimePlayerX | 4% | 1% | 1% |
 | Preview | -- | 1% | -- |
 | TextEdit | -- | -- | -- |
 | System Settings | -- | -- | -- |
@@ -121,7 +121,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-12 04:26 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-12 06:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
