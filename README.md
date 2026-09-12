@@ -19,8 +19,8 @@
 | Worker-classified human attention | 0.0h | 0.8h | 0.8h | 0.8h |
 | Worker/headless AI generation | 3.2h | 6.7h | 12.3h | 61.0h |
 | Additive observed work | 10.0h | 105.7h | 280.9h | 822.2h |
-| Interactive sessions | 10 | 196 | 260 | 381 |
-| Worker sessions | 119 | 192 | 662 | 1,911 |
+| Interactive sessions | 12 | 196 | 260 | 381 |
+| Worker sessions | 120 | 193 | 663 | 1,912 |
 
 _Screen time from macos-knowledge-db:/app/usage-union; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -34,11 +34,11 @@ _AI session 365-day totals cover 78 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5 | 17,529 | 36K | 8.6M | 6,778.7M | 100.0% | 225 | 82.8h |
+| claude-sonnet-5 | 17,622 | 36K | 8.7M | 6,809.5M | 100.0% | 223 | 83.4h |
 | claude-opus-5 | 6,928 | 14K | 3.8M | 1,889.9M | 100.0% | 102 | 33.3h |
 | big-pickle | 3,375 | 18.6M | 1.6M | 347.6M | 94.9% | 43 | 22.7h |
 | gpt-5.6-sol | 2,794 | 15.7M | 854K | 391.2M | 96.1% | 18 | 15.9h |
-| gpt-5.6-luna | 900 | 17.2M | 141K | 64.6M | 78.9% | 392 | 5.8h |
+| gpt-5.6-luna | 901 | 17.3M | 141K | 64.6M | 78.9% | 393 | 5.8h |
 | gpt-5.6-terra | 809 | 5.7M | 181K | 68.6M | 92.3% | 67 | 3.8h |
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | 97.1% | 1 | 0.5h |
 | deepseek-v4-flash-free | 154 | 1.4M | 160K | 19.6M | 93.3% | 3 | 0.9h |
@@ -50,15 +50,15 @@ _AI session 365-day totals cover 78 days of local assistant session history (not
 | claude-haiku-4-5 | 5 | 17 | 1K | 103K | 100.0% | 4 | 0.0h |
 | mimo-v2.5-free | 5 | 454K | 3K | 16K | 3.5% | 5 | 0.0h |
 | qwen2.5:14b-instruct-q4_K_M | 3 | 6K | 408 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **33,074** | **64.7M** | **15.6M** | **9,668.6M** | **99.3%** | **809** | **167.8h** |
+| **Total** | **33,168** | **64.7M** | **15.6M** | **9,699.5M** | **99.3%** | **808** | **168.3h** |
 
-_10,069.1M total tokens processed. 99.3% cache hit rate._
+_10,102.0M total tokens processed. 99.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5 | 22,228 | 46K | 11.8M | 8,067.0M | 100.0% | 264 | 106.5h |
+| claude-sonnet-5 | 22,324 | 46K | 11.9M | 8,097.9M | 100.0% | 264 | 107.0h |
 | claude-opus-5 | 15,904 | 31K | 9.3M | 4,991.8M | 100.0% | 125 | 82.4h |
 | gpt-5.6-sol | 14,320 | 63.8M | 3.0M | 1,112.2M | 94.6% | 790 | 73.5h |
 | big-pickle | 7,815 | 33.7M | 2.6M | 729.1M | 95.6% | 118 | 43.7h |
@@ -66,7 +66,7 @@ _10,069.1M total tokens processed. 99.3% cache hit rate._
 | deepseek-v4-flash-free | 3,290 | 10.5M | 1.1M | 331.3M | 96.9% | 37 | 14.8h |
 | gpt-5.5 | 2,285 | 8.8M | 389K | 140.5M | 94.1% | 301 | 9.8h |
 | gpt-5.6-terra | 1,349 | 9.6M | 291K | 97.3M | 90.9% | 172 | 5.7h |
-| gpt-5.6-luna | 931 | 17.4M | 143K | 65.4M | 78.9% | 399 | 5.9h |
+| gpt-5.6-luna | 932 | 17.5M | 143K | 65.4M | 78.9% | 400 | 5.9h |
 | claude-sonnet-4-6 | 360 | 468 | 254K | 62.6M | 100.0% | 3 | 1.8h |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | 100.0% | 2 | 1.6h |
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | 97.1% | 1 | 0.5h |
@@ -82,9 +82,9 @@ _10,069.1M total tokens processed. 99.3% cache hit rate._
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | gpt-5.6-fast | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | claude-opus-4-8-fast | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **75,238** | **151.4M** | **36.5M** | **17,369.8M** | **99.1%** | **2,120** | **392.3h** |
+| **Total** | **75,335** | **151.5M** | **36.6M** | **17,400.8M** | **99.1%** | **2,121** | **392.8h** |
 
-_18,167.3M total tokens processed. 99.1% cache hit rate._
+_18,200.4M total tokens processed. 99.1% cache hit rate._
 
 ## Top Apps by Screen Time
 
@@ -121,7 +121,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-12 02:03 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-12 03:03 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
