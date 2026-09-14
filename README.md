@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 1.9h | 12.2h | 16.4h | 67.2h |
 | Additive observed work | 5.3h | 89.8h | 268.5h | 850.5h |
 | Interactive sessions | 9 | 61 | 244 | 384 |
-| Worker sessions | 98 | 335 | 698 | 2,080 |
+| Worker sessions | 101 | 338 | 701 | 2,083 |
 
 _Screen time from macos-knowledge-db:/app/usage-union; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -35,11 +35,11 @@ _AI session 365-day totals cover 81 days of local assistant session history (not
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-sonnet-5 | 18,084 | 37K | 8.7M | 7,300.2M | 100.0% | 55 | 87.7h |
-| claude-opus-5 | 6,449 | 13K | 2.7M | 1,568.2M | 100.0% | 197 | 30.4h |
+| claude-opus-5 | 6,470 | 13K | 2.7M | 1,571.3M | 100.0% | 199 | 30.4h |
 | big-pickle | 3,524 | 20.7M | 1.8M | 367.2M | 94.6% | 42 | 23.1h |
-| gpt-5.6-sol | 2,652 | 15.5M | 816K | 371.8M | 96.0% | 19 | 15.3h |
-| gpt-5.6-luna | 1,081 | 22.1M | 181K | 77.1M | 77.7% | 454 | 6.7h |
-| gpt-5.6-terra | 991 | 7.7M | 229K | 86.4M | 91.8% | 68 | 4.6h |
+| gpt-5.6-sol | 2,533 | 15.0M | 770K | 354.3M | 95.9% | 19 | 14.9h |
+| gpt-5.6-luna | 1,082 | 22.1M | 181K | 77.1M | 77.7% | 455 | 6.7h |
+| gpt-5.6-terra | 979 | 7.6M | 228K | 85.7M | 91.8% | 67 | 4.5h |
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | 97.1% | 1 | 0.5h |
 | deepseek-v4-flash-free | 154 | 1.4M | 160K | 19.6M | 93.3% | 3 | 0.9h |
 | claude-fable-5 | 120 | 240 | 62K | 23.4M | 100.0% | 1 | 0.6h |
@@ -52,23 +52,23 @@ _AI session 365-day totals cover 81 days of local assistant session history (not
 | claude-haiku-4-5 | 5 | 17 | 1K | 103K | 100.0% | 4 | 0.0h |
 | mimo-v2.5-free | 5 | 454K | 3K | 16K | 3.5% | 5 | 0.0h |
 | qwen2.5:14b-instruct-q4_K_M | 3 | 6K | 408 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **33,594** | **74.4M** | **14.9M** | **9,912.3M** | **99.3%** | **794** | **171.9h** |
+| **Total** | **33,485** | **73.9M** | **14.9M** | **9,897.2M** | **99.3%** | **796** | **171.4h** |
 
-_10,329.7M total tokens processed. 99.3% cache hit rate._
+_10,314.3M total tokens processed. 99.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-sonnet-5 | 23,904 | 49K | 12.4M | 8,730.6M | 100.0% | 265 | 113.8h |
-| claude-opus-5 | 17,457 | 35K | 9.7M | 5,238.0M | 100.0% | 226 | 87.7h |
+| claude-opus-5 | 17,478 | 35K | 9.7M | 5,241.1M | 100.0% | 228 | 87.7h |
 | gpt-5.6-sol | 14,383 | 64.4M | 3.0M | 1,122.0M | 94.6% | 793 | 74.1h |
 | big-pickle | 8,233 | 36.6M | 2.9M | 776.4M | 95.5% | 119 | 45.2h |
 | claude-opus-4-8 | 5,837 | 11K | 6.9M | 1,606.9M | 100.0% | 46 | 42.5h |
 | deepseek-v4-flash-free | 3,290 | 10.5M | 1.1M | 331.3M | 96.9% | 37 | 14.8h |
 | gpt-5.5 | 2,285 | 8.8M | 389K | 140.5M | 94.1% | 301 | 9.8h |
 | gpt-5.6-terra | 1,552 | 11.8M | 341K | 116.0M | 90.7% | 178 | 6.5h |
-| gpt-5.6-luna | 1,113 | 22.3M | 183K | 77.9M | 77.7% | 462 | 6.8h |
+| gpt-5.6-luna | 1,114 | 22.4M | 183K | 77.9M | 77.7% | 463 | 6.8h |
 | claude-sonnet-4-6 | 360 | 468 | 254K | 62.6M | 100.0% | 3 | 1.8h |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | 100.0% | 2 | 1.6h |
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | 97.1% | 1 | 0.5h |
@@ -86,9 +86,9 @@ _10,329.7M total tokens processed. 99.3% cache hit rate._
 | gpt-5.6 | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | gpt-5.6-fast | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | claude-opus-4-8-fast | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **79,407** | **163.0M** | **37.9M** | **18,381.3M** | **99.1%** | **2,291** | **409.2h** |
+| **Total** | **79,429** | **163.0M** | **37.9M** | **18,384.4M** | **99.1%** | **2,294** | **409.3h** |
 
-_19,232.8M total tokens processed. 99.1% cache hit rate._
+_19,236.2M total tokens processed. 99.1% cache hit rate._
 
 ## Top Apps by Screen Time
 
@@ -125,7 +125,7 @@ _Top 10 apps by foreground time share across completed local calendar days. Mac 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-14 22:04 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-14 23:13 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
