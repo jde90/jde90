@@ -34,8 +34,8 @@ _AI session 365-day totals cover 88 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5 | 16,884 | 35K | 7.6M | 6,742.5M | 100.0% | 56 | 86.6h |
-| claude-opus-5 | 8,634 | 17K | 2.7M | 1,719.7M | 100.0% | 402 | 30.4h |
+| claude-sonnet-5 | 16,841 | 35K | 7.5M | 6,708.0M | 100.0% | 56 | 86.4h |
+| claude-opus-5 | 8,626 | 17K | 2.7M | 1,718.1M | 100.0% | 402 | 30.3h |
 | big-pickle | 2,537 | 18.3M | 1.6M | 263.0M | 93.5% | 31 | 17.2h |
 | gpt-5.6-sol | 1,901 | 12.4M | 623K | 265.3M | 95.5% | 19 | 11.1h |
 | gpt-5.6-luna | 1,189 | 24.5M | 197K | 93.2M | 79.2% | 400 | 5.7h |
@@ -51,9 +51,9 @@ _AI session 365-day totals cover 88 days of local assistant session history (not
 | claude-haiku-4-5 | 5 | 17 | 1K | 103K | 100.0% | 4 | 0.0h |
 | mimo-v2.5-free | 5 | 454K | 3K | 16K | 3.5% | 5 | 0.0h |
 | qwen2.5:14b-instruct-q4_K_M | 3 | 6K | 408 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **32,829** | **70.7M** | **13.3M** | **9,304.9M** | **99.2%** | **923** | **158.8h** |
+| **Total** | **32,778** | **70.7M** | **13.3M** | **9,268.8M** | **99.2%** | **923** | **158.6h** |
 
-_9,711.5M total tokens processed. 99.2% cache hit rate._
+_9,673.0M total tokens processed. 99.2% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -108,7 +108,7 @@ _20,728.3M total tokens processed. 99.1% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-21 17:26 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-21 18:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
