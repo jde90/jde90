@@ -13,7 +13,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 5.1h | 37.8h | 117.7h | ~1810h* |
+| Screen time (Mac) | 5.1h | 37.8h | 122.8h | ~1811h* |
 | Interactive human attention | 2.8h | 18.6h | 89.2h | 326.4h |
 | Interactive AI generation | 3.2h | 19.6h | 132.6h | 499.2h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.8h | 0.8h |
@@ -38,7 +38,7 @@ _AI session 365-day totals cover 90 days of local assistant session history (not
 | claude-opus-5 | 9,586 | 19K | 3.0M | 1,915.8M | 100.0% | 442 | 34.0h |
 | big-pickle | 2,476 | 18.5M | 1.6M | 255.8M | 93.3% | 30 | 16.8h |
 | gpt-5.6-sol | 1,927 | 13.0M | 737K | 278.6M | 95.5% | 20 | 13.4h |
-| gpt-5.6-luna | 1,304 | 23.7M | 224K | 113.1M | 82.7% | 374 | 6.1h |
+| gpt-5.6-luna | 1,303 | 23.6M | 224K | 113.1M | 82.7% | 373 | 6.1h |
 | gpt-5.6-terra | 953 | 9.0M | 223K | 89.6M | 90.9% | 57 | 4.4h |
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | 97.1% | 1 | 0.5h |
 | gpt-6-astra | 210 | 1.5M | 68K | 23.9M | 94.0% | 5 | 1.3h |
@@ -51,7 +51,7 @@ _AI session 365-day totals cover 90 days of local assistant session history (not
 | claude-haiku-4-5 | 5 | 17 | 1K | 103K | 100.0% | 4 | 0.0h |
 | mimo-v2.5-free | 5 | 454K | 3K | 16K | 3.5% | 5 | 0.0h |
 | qwen2.5:14b-instruct-q4_K_M | 3 | 6K | 408 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **33,128** | **71.3M** | **13.2M** | **9,224.3M** | **99.2%** | **936** | **162.7h** |
+| **Total** | **33,127** | **71.3M** | **13.2M** | **9,224.3M** | **99.2%** | **935** | **162.7h** |
 
 _9,627.0M total tokens processed. 99.2% cache hit rate._
 
@@ -108,7 +108,7 @@ _21,116.4M total tokens processed. 99.1% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-23 05:42 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-23 06:15 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
