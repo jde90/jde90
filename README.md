@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 1.1h | 15.5h | 54.3h | 121.5h |
 | Additive observed work | 8.0h | 63.0h | 268.5h | 1,119.0h |
 | Interactive sessions | 11 | 51 | 117 | 490 |
-| Worker sessions | 48 | 258 | 878 | 2,917 |
+| Worker sessions | 50 | 260 | 880 | 2,919 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -34,13 +34,13 @@ _AI session 365-day totals cover 109 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 18,674 | 37K | 5.0M | 3,189.8M | 145.2M | 95.6% | 847 | 69.1h |
+| claude-opus-5 | 18,647 | 37K | 5.0M | 3,185.9M | 145.2M | 95.6% | 847 | 69.0h |
 | claude-sonnet-5 | 10,358 | 20K | 3.9M | 3,367.9M | 152.4M | 95.7% | 36 | 44.6h |
 | claude-opus-5-5 | 3,559 | 7K | 1.8M | 720.0M | 31.1M | 95.9% | 28 | 17.5h |
 | big-pickle | 2,331 | 16.4M | 1.3M | 258.0M | 0 | 94.0% | 26 | 8.2h |
 | claude-sonnet-5-5 | 1,890 | 4K | 855K | 399.6M | 26.5M | 93.8% | 10 | 11.5h |
 | gpt-6.1-sol | 1,722 | 4.3M | 377K | 265.7M | 0 | 98.4% | 8 | 11.6h |
-| gpt-5.6-luna | 1,271 | 16.8M | 689K | 81.9M | 0 | 83.0% | 190 | 6.6h |
+| gpt-5.6-luna | 1,270 | 16.7M | 689K | 81.9M | 0 | 83.0% | 189 | 6.6h |
 | gpt-5.6-terra | 1,052 | 14.5M | 400K | 87.9M | 0 | 85.8% | 72 | 6.1h |
 | gpt-5.6-sol | 982 | 5.9M | 351K | 154.6M | 0 | 96.3% | 10 | 6.4h |
 | gpt-6-luna | 345 | 2.5M | 69K | 48.5M | 0 | 95.1% | 7 | 1.6h |
@@ -52,15 +52,15 @@ _AI session 365-day totals cover 109 days of local assistant session history (no
 | deepseek-v4-pro | 21 | 412K | 10K | 6.1M | 0 | 93.7% | 2 | 0.2h |
 | claude-fable-5-1 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.1h |
 | pool-account-management | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **42,558** | **63.2M** | **15.0M** | **8,623.3M** | **356.0M** | **95.4%** | **1,079** | **185.2h** |
+| **Total** | **42,530** | **63.1M** | **15.0M** | **8,619.5M** | **356.0M** | **95.4%** | **1,078** | **185.2h** |
 
-_9,057.6M total tokens processed. 95.4% cache hit rate._
+_9,053.7M total tokens processed. 95.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 34,768 | 69K | 14.5M | 8,209.7M | 337.9M | 96.0% | 987 | 152.1h |
+| claude-opus-5 | 34,786 | 69K | 14.5M | 8,213.1M | 338.1M | 96.0% | 989 | 152.2h |
 | claude-sonnet-5 | 32,839 | 67K | 15.8M | 11,513.9M | 467.5M | 96.1% | 292 | 152.1h |
 | gpt-5.6-sol | 15,334 | 70.0M | 3.4M | 1,270.5M | 0 | 94.8% | 800 | 80.3h |
 | big-pickle | 10,167 | 50.4M | 3.9M | 988.9M | 0 | 95.1% | 144 | 52.1h |
@@ -93,9 +93,9 @@ _9,057.6M total tokens processed. 95.4% cache hit rate._
 | claude-fable-5-1 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.1h |
 | claude-opus-4-8-fast | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | pool-account-management | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **118,395** | **216.9M** | **51.7M** | **26,115.9M** | **970.7M** | **95.6%** | **3,221** | **580.2h** |
+| **Total** | **118,413** | **216.9M** | **51.7M** | **26,119.3M** | **971.0M** | **95.6%** | **3,223** | **580.3h** |
 
-_27,355.5M total tokens processed. 95.6% cache hit rate._
+_27,359.1M total tokens processed. 95.6% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -116,7 +116,7 @@ _27,355.5M total tokens processed. 95.6% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-12 14:24 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-12 15:27 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
