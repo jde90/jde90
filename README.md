@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 1.7h | 14.5h | 53.3h | 123.2h |
 | Additive observed work | 3.0h | 61.8h | 264.5h | 1,122.0h |
 | Interactive sessions | 6 | 48 | 117 | 493 |
-| Worker sessions | 46 | 254 | 856 | 2,951 |
+| Worker sessions | 48 | 256 | 858 | 2,953 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -34,7 +34,7 @@ _AI session 365-day totals cover 110 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 18,675 | 37K | 5.0M | 3,153.7M | 143.6M | 95.6% | 847 | 69.7h |
+| claude-opus-5 | 18,689 | 37K | 5.0M | 3,154.4M | 143.6M | 95.6% | 847 | 69.8h |
 | claude-sonnet-5 | 9,517 | 19K | 3.6M | 3,021.1M | 137.9M | 95.6% | 36 | 40.6h |
 | claude-opus-5-5 | 3,907 | 8K | 1.9M | 795.7M | 33.3M | 96.0% | 29 | 18.0h |
 | big-pickle | 2,086 | 15.1M | 1.1M | 229.5M | 0 | 93.8% | 26 | 7.5h |
@@ -52,15 +52,15 @@ _AI session 365-day totals cover 110 days of local assistant session history (no
 | claude-fable-5-1 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.1h |
 | deepseek-v4-pro | 1 | 108K | 376 | 0 | 0 | 0.0% | 1 | 0.0h |
 | pool-account-management | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **41,669** | **58.9M** | **14.6M** | **8,262.9M** | **342.4M** | **95.4%** | **1,062** | **180.6h** |
+| **Total** | **41,683** | **58.9M** | **14.6M** | **8,263.6M** | **342.4M** | **95.4%** | **1,062** | **180.7h** |
 
-_8,679.0M total tokens processed. 95.4% cache hit rate._
+_8,679.6M total tokens processed. 95.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 35,282 | 70K | 14.6M | 8,268.7M | 341.4M | 96.0% | 1,021 | 154.5h |
+| claude-opus-5 | 35,304 | 70K | 14.6M | 8,270.3M | 341.6M | 96.0% | 1,023 | 154.6h |
 | claude-sonnet-5 | 32,839 | 67K | 15.8M | 11,513.9M | 467.5M | 96.1% | 292 | 152.1h |
 | gpt-5.6-sol | 15,334 | 70.0M | 3.4M | 1,270.5M | 0 | 94.8% | 800 | 80.3h |
 | big-pickle | 10,167 | 50.4M | 3.9M | 988.9M | 0 | 95.1% | 144 | 52.1h |
@@ -93,9 +93,9 @@ _8,679.0M total tokens processed. 95.4% cache hit rate._
 | claude-fable-5-1 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.1h |
 | claude-opus-4-8-fast | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | pool-account-management | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **119,353** | **217.6M** | **52.0M** | **26,257.2M** | **976.9M** | **95.6%** | **3,258** | **583.5h** |
+| **Total** | **119,375** | **217.6M** | **52.0M** | **26,258.8M** | **977.0M** | **95.6%** | **3,260** | **583.6h** |
 
-_27,503.8M total tokens processed. 95.6% cache hit rate._
+_27,505.6M total tokens processed. 95.6% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -116,7 +116,7 @@ _27,503.8M total tokens processed. 95.6% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-13 10:13 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-13 11:10 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
