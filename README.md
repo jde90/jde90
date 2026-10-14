@@ -19,7 +19,7 @@
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.9h |
 | Worker/headless AI generation | 4.0h | 16.1h | 55.8h | 127.1h |
 | Additive observed work | 11.0h | 59.5h | 273.6h | 1,133.0h |
-| Interactive sessions | 16 | 52 | 126 | 502 |
+| Interactive sessions | 17 | 53 | 127 | 503 |
 | Worker sessions | 65 | 284 | 853 | 3,006 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
@@ -34,27 +34,27 @@ _AI session 365-day totals cover 111 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 18,745 | 37K | 5.1M | 3,188.8M | 146.6M | 95.6% | 857 | 70.7h |
+| claude-opus-5 | 18,708 | 37K | 5.1M | 3,183.1M | 146.4M | 95.6% | 855 | 70.6h |
 | claude-sonnet-5 | 9,040 | 18K | 3.4M | 2,833.0M | 130.5M | 95.6% | 36 | 38.8h |
 | claude-opus-5-5 | 4,358 | 9K | 2.1M | 893.7M | 39.2M | 95.8% | 30 | 19.6h |
-| claude-sonnet-5-5 | 2,132 | 5K | 964K | 447.5M | 31.1M | 93.5% | 15 | 12.0h |
-| big-pickle | 2,089 | 15.1M | 1.1M | 230.4M | 0 | 93.8% | 27 | 7.5h |
+| claude-sonnet-5-5 | 2,223 | 5K | 990K | 464.2M | 31.9M | 93.6% | 15 | 12.4h |
+| big-pickle | 2,174 | 16.0M | 1.1M | 240.8M | 0 | 93.8% | 28 | 7.8h |
 | gpt-6.1-sol | 1,778 | 4.5M | 418K | 269.5M | 0 | 98.3% | 9 | 12.3h |
-| gpt-5.6-luna | 1,379 | 15.6M | 845K | 82.0M | 0 | 83.9% | 163 | 7.0h |
+| gpt-5.6-luna | 1,407 | 15.8M | 868K | 82.0M | 0 | 83.8% | 164 | 7.0h |
 | gpt-5.6-terra | 973 | 13.9M | 379K | 77.7M | 0 | 84.8% | 75 | 5.9h |
 | gpt-5.6-sol | 951 | 5.6M | 345K | 148.4M | 0 | 96.4% | 8 | 6.2h |
-| gpt-6-luna | 346 | 2.6M | 69K | 48.5M | 0 | 94.9% | 7 | 1.6h |
+| gpt-6-luna | 347 | 2.6M | 69K | 48.5M | 0 | 94.8% | 8 | 1.6h |
 | gpt-6-astra | 109 | 395K | 36K | 11.7M | 0 | 96.8% | 2 | 0.6h |
 | longcat-2.5-preview-free | 102 | 149K | 9K | 12.3M | 0 | 98.8% | 1 | 0.3h |
 | claude-fable-5 | 46 | 92 | 43K | 7.7M | 652K | 92.3% | 2 | 0.4h |
-| nemotron-3-ultra-free | 24 | 658K | 1K | 2.3M | 0 | 78.1% | 1 | 0.0h |
+| nemotron-3-ultra-free | 43 | 940K | 2K | 4.7M | 0 | 83.6% | 2 | 0.1h |
 | muse-spark-1.3-contributor-free | 16 | 103K | 2K | 1.3M | 0 | 93.0% | 1 | 0.0h |
 | claude-fable-5-1 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.1h |
 | deepseek-v4-pro | 1 | 108K | 376 | 0 | 0 | 0.0% | 1 | 0.0h |
 | pool-account-management | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **42,091** | **59.0M** | **15.0M** | **8,255.6M** | **348.1M** | **95.3%** | **1,060** | **183.2h** |
+| **Total** | **42,278** | **60.5M** | **15.1M** | **8,279.6M** | **348.7M** | **95.3%** | **1,059** | **183.9h** |
 
-_8,677.9M total tokens processed. 95.3% cache hit rate._
+_8,703.9M total tokens processed. 95.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -63,23 +63,23 @@ _8,677.9M total tokens processed. 95.3% cache hit rate._
 | claude-opus-5 | 36,017 | 72K | 14.8M | 8,397.9M | 348.8M | 96.0% | 1,073 | 157.9h |
 | claude-sonnet-5 | 32,839 | 67K | 15.8M | 11,513.9M | 467.5M | 96.1% | 292 | 152.1h |
 | gpt-5.6-sol | 15,334 | 70.0M | 3.4M | 1,270.5M | 0 | 94.8% | 800 | 80.3h |
-| big-pickle | 10,197 | 50.7M | 3.9M | 992.7M | 0 | 95.1% | 145 | 52.2h |
+| big-pickle | 10,282 | 51.6M | 4.0M | 1,003.1M | 0 | 95.1% | 146 | 52.5h |
 | claude-opus-4-8 | 5,837 | 11K | 6.9M | 1,606.9M | 98.3M | 94.2% | 46 | 42.5h |
 | claude-opus-5-5 | 4,358 | 9K | 2.1M | 893.7M | 39.2M | 95.8% | 30 | 19.6h |
 | deepseek-v4-flash-free | 3,290 | 10.5M | 1.1M | 331.3M | 0 | 96.9% | 37 | 14.8h |
 | gpt-5.6-terra | 2,496 | 25.6M | 716K | 191.5M | 0 | 88.2% | 251 | 12.3h |
-| gpt-5.6-luna | 2,454 | 37.4M | 1.0M | 157.5M | 0 | 80.8% | 618 | 13.6h |
+| gpt-5.6-luna | 2,482 | 37.6M | 1.0M | 157.5M | 0 | 80.7% | 619 | 13.7h |
 | gpt-5.5 | 2,285 | 8.8M | 389K | 140.5M | 0 | 94.1% | 301 | 9.8h |
-| claude-sonnet-5-5 | 2,132 | 5K | 964K | 447.5M | 31.1M | 93.5% | 15 | 12.0h |
+| claude-sonnet-5-5 | 2,223 | 5K | 990K | 464.2M | 31.9M | 93.6% | 15 | 12.4h |
 | gpt-6.1-sol | 1,778 | 4.5M | 418K | 269.5M | 0 | 98.3% | 9 | 12.3h |
 | claude-sonnet-4-6 | 360 | 468 | 254K | 62.6M | 3.4M | 94.8% | 3 | 1.8h |
-| gpt-6-luna | 346 | 2.6M | 69K | 48.5M | 0 | 94.9% | 7 | 1.6h |
+| gpt-6-luna | 347 | 2.6M | 69K | 48.5M | 0 | 94.8% | 8 | 1.6h |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | 2.5M | 95.3% | 2 | 1.6h |
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | 0 | 97.1% | 1 | 0.5h |
 | gpt-6-astra | 210 | 1.5M | 68K | 23.9M | 0 | 94.0% | 5 | 1.3h |
 | claude-fable-5 | 187 | 374 | 159K | 32.6M | 2.8M | 91.9% | 6 | 1.2h |
+| nemotron-3-ultra-free | 109 | 3.0M | 8K | 9.3M | 0 | 75.6% | 5 | 0.8h |
 | longcat-2.5-preview-free | 102 | 149K | 9K | 12.3M | 0 | 98.8% | 1 | 0.3h |
-| nemotron-3-ultra-free | 90 | 2.7M | 8K | 6.8M | 0 | 71.6% | 4 | 0.8h |
 | deepseek-v4-flash | 71 | 178K | 26K | 13.5M | 0 | 98.7% | 1 | 0.1h |
 | gpt-5.4-mini | 53 | 1.3M | 4K | 4.0M | 0 | 75.1% | 1 | 1.2h |
 | nemotron-3.5-lightning-free | 29 | 930K | 12K | 1.7M | 0 | 65.5% | 6 | 0.3h |
@@ -93,9 +93,9 @@ _8,677.9M total tokens processed. 95.3% cache hit rate._
 | claude-fable-5-1 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.1h |
 | claude-opus-4-8-fast | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | pool-account-management | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **121,016** | **220.2M** | **52.7M** | **26,539.5M** | **994.3M** | **95.6%** | **3,322** | **590.6h** |
+| **Total** | **121,240** | **221.6M** | **52.8M** | **26,569.1M** | **995.1M** | **95.6%** | **3,323** | **591.5h** |
 
-_27,806.9M total tokens processed. 95.6% cache hit rate._
+_27,838.8M total tokens processed. 95.6% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -116,7 +116,7 @@ _27,806.9M total tokens processed. 95.6% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-14 15:30 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-14 16:02 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
