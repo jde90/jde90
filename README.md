@@ -34,28 +34,27 @@ _AI session 365-day totals cover 120 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 22,791 | 45K | 6.4M | 4,365.0M | 151.9M | 96.6% | 725 | 80.0h |
+| claude-opus-5 | 22,722 | 45K | 6.4M | 4,353.6M | 151.5M | 96.6% | 722 | 79.8h |
 | claude-opus-5-5 | 10,132 | 25K | 3.9M | 2,218.5M | 81.4M | 96.5% | 40 | 28.6h |
-| claude-sonnet-5 | 6,658 | 13K | 2.6M | 1,855.6M | 85.8M | 95.6% | 29 | 27.9h |
+| claude-sonnet-5 | 6,121 | 12K | 2.4M | 1,709.2M | 79.2M | 95.6% | 28 | 25.9h |
 | gpt-5.6-luna | 5,946 | 45.1M | 5.7M | 40.4M | 0 | 47.3% | 235 | 20.7h |
 | claude-sonnet-5-5 | 4,716 | 11K | 1.8M | 1,020.8M | 53.6M | 95.0% | 34 | 18.1h |
 | gpt-6.1-sol | 3,769 | 10.6M | 853K | 591.7M | 0 | 98.2% | 14 | 23.4h |
-| big-pickle | 1,940 | 12.6M | 955K | 224.7M | 0 | 94.7% | 21 | 7.7h |
-| gpt-5.6-terra | 1,281 | 17.2M | 421K | 103.2M | 0 | 85.7% | 105 | 7.4h |
+| big-pickle | 1,542 | 8.9M | 307K | 180.3M | 0 | 95.3% | 20 | 5.8h |
+| gpt-5.6-terra | 1,276 | 17.1M | 420K | 103.1M | 0 | 85.7% | 103 | 7.4h |
 | gpt-6-luna | 852 | 6.5M | 142K | 118.3M | 0 | 94.7% | 24 | 3.5h |
-| gpt-5.6-sol | 325 | 1.7M | 95K | 49.9M | 0 | 96.7% | 5 | 1.7h |
 | deepseek-v4-pro | 190 | 538K | 71K | 35.2M | 0 | 98.5% | 1 | 0.6h |
+| gpt-5.6-sol | 174 | 656K | 26K | 27.3M | 0 | 97.7% | 4 | 0.6h |
 | longcat-2.5-preview-free | 102 | 149K | 9K | 12.3M | 0 | 98.8% | 1 | 0.3h |
 | deepseek-v4.1-flash-free | 81 | 1.1M | 16K | 11.7M | 0 | 91.2% | 4 | 0.2h |
 | claude-fable-5 | 46 | 92 | 43K | 7.7M | 652K | 92.3% | 2 | 0.4h |
 | nemotron-3-ultra-free | 43 | 940K | 2K | 4.7M | 0 | 83.6% | 2 | 0.1h |
-| muse-spark-1.3-contributor-free | 16 | 103K | 2K | 1.3M | 0 | 93.0% | 1 | 0.0h |
 | glm-5.3-flash-free | 8 | 152K | 342 | 1.0M | 0 | 87.1% | 1 | 0.0h |
 | pool-account-management | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | claude-fable-5-1 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.1h |
-| **Total** | **58,899** | **97.0M** | **23.3M** | **10,662.8M** | **373.5M** | **95.8%** | **968** | **220.6h** |
+| **Total** | **57,723** | **92.1M** | **22.3M** | **10,436.5M** | **366.5M** | **95.8%** | **961** | **215.6h** |
 
-_11,156.8M total tokens processed. 95.8% cache hit rate._
+_10,917.5M total tokens processed. 95.8% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -119,7 +118,7 @@ _32,384.9M total tokens processed. 95.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-23 19:55 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-24 02:21 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
