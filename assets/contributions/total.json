@@ -1,8 +1,8 @@
 {
   "schema": "aidevops.total-contributions/v1",
   "user": "jde90",
-  "updated": "2026-10-24",
-  "through": "2026-10-23",
+  "updated": "2026-10-25",
+  "through": "2026-10-24",
   "metric": "GitHub contributionCalendar.totalContributions",
   "total": 849,
   "months": [
@@ -378,17 +378,17 @@
     },
     {
       "month": "2026-08",
-      "total": 89,
-      "cumulative": 107
+      "total": 85,
+      "cumulative": 103
     },
     {
       "month": "2026-09",
       "total": 412,
-      "cumulative": 519
+      "cumulative": 515
     },
     {
       "month": "2026-10",
-      "total": 330,
+      "total": 334,
       "cumulative": 849
     }
   ]
