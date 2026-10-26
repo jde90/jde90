@@ -1,10 +1,10 @@
 {
   "schema": "aidevops.total-contributions/v1",
   "user": "jde90",
-  "updated": "2026-10-25",
-  "through": "2026-10-24",
+  "updated": "2026-10-26",
+  "through": "2026-10-25",
   "metric": "GitHub contributionCalendar.totalContributions",
-  "total": 849,
+  "total": 840,
   "months": [
     {
       "month": "2020-06",
@@ -343,53 +343,53 @@
     },
     {
       "month": "2026-01",
-      "total": 1,
-      "cumulative": 2
+      "total": 0,
+      "cumulative": 1
     },
     {
       "month": "2026-02",
       "total": 0,
-      "cumulative": 2
+      "cumulative": 1
     },
     {
       "month": "2026-03",
       "total": 0,
-      "cumulative": 2
+      "cumulative": 1
     },
     {
       "month": "2026-04",
       "total": 0,
-      "cumulative": 2
+      "cumulative": 1
     },
     {
       "month": "2026-05",
-      "total": 12,
-      "cumulative": 14
+      "total": 0,
+      "cumulative": 1
     },
     {
       "month": "2026-06",
-      "total": 1,
-      "cumulative": 15
+      "total": 0,
+      "cumulative": 1
     },
     {
       "month": "2026-07",
-      "total": 3,
-      "cumulative": 18
+      "total": 1,
+      "cumulative": 2
     },
     {
       "month": "2026-08",
       "total": 85,
-      "cumulative": 103
+      "cumulative": 87
     },
     {
       "month": "2026-09",
       "total": 412,
-      "cumulative": 515
+      "cumulative": 499
     },
     {
       "month": "2026-10",
-      "total": 334,
-      "cumulative": 849
+      "total": 341,
+      "cumulative": 840
     }
   ]
 }
