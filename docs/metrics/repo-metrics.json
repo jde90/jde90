@@ -1,7 +1,7 @@
 {
   "schema": "aidevops.repo-metrics.v1",
   "schema_version": 1,
-  "generated_at": "2026-10-25T08:35:12Z",
+  "generated_at": "2026-10-26T10:04:05Z",
   "tool": {
     "name": "aidevops repo-metrics",
     "version": "1.0.0"
@@ -11,11 +11,11 @@
     "slug": "jde90/jde90"
   },
   "summary": {
-    "source_files": 4,
-    "code": 576,
-    "comments": 0,
-    "blanks": 25,
-    "languages": 3,
+    "source_files": 5,
+    "code": 597,
+    "comments": 32,
+    "blanks": 29,
+    "languages": 4,
     "dependencies": 0
   },
   "languages": [
@@ -25,16 +25,16 @@
       "code": 395,
       "comments": 0,
       "blanks": 0,
-      "percentage": 68.58,
+      "percentage": 66.16,
       "color": "#292929"
     },
     {
       "name": "Markdown",
       "files": 1,
-      "code": 121,
+      "code": 119,
       "comments": 0,
       "blanks": 25,
-      "percentage": 21.01,
+      "percentage": 19.93,
       "color": "#083fa1"
     },
     {
@@ -43,8 +43,17 @@
       "code": 60,
       "comments": 0,
       "blanks": 0,
-      "percentage": 10.42,
+      "percentage": 10.05,
       "color": "#6e7781"
+    },
+    {
+      "name": "YAML",
+      "files": 1,
+      "code": 23,
+      "comments": 32,
+      "blanks": 4,
+      "percentage": 3.85,
+      "color": "#cb171e"
     }
   ],
   "dependencies": {
