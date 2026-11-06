@@ -28,8 +28,8 @@
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.9h |
 | Worker/headless AI generation | 1.9h | 13.8h | 59.0h | 174.5h |
 | Additive observed work | 8.4h | 38.0h | 238.2h | 1,335.2h |
-| Interactive sessions | 12 | 49 | 174 | 638 |
-| Worker sessions | 53 | 231 | 854 | 3,649 |
+| Interactive sessions | 16 | 53 | 178 | 642 |
+| Worker sessions | 62 | 240 | 863 | 3,658 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -43,10 +43,10 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 20,926 | 41K | 5.7M | 3,445.1M | 118.8M | 96.7% | 874 | 71.4h |
-| claude-opus-5-5 | 8,806 | 22K | 3.3M | 1,884.0M | 65.7M | 96.6% | 28 | 47.7h |
-| claude-sonnet-5-5 | 6,170 | 15K | 2.3M | 1,259.5M | 67.6M | 94.9% | 57 | 23.3h |
-| gpt-5.6-luna | 5,681 | 41.1M | 5.7M | 8.3M | 0 | 16.8% | 197 | 18.1h |
+| claude-opus-5 | 20,920 | 41K | 5.7M | 3,420.4M | 118.2M | 96.7% | 873 | 71.3h |
+| claude-opus-5-5 | 8,835 | 22K | 3.3M | 1,889.5M | 66.0M | 96.6% | 28 | 47.8h |
+| claude-sonnet-5-5 | 6,333 | 15K | 2.4M | 1,280.0M | 68.3M | 94.9% | 59 | 23.7h |
+| gpt-5.6-luna | 5,677 | 41.0M | 5.7M | 8.3M | 0 | 16.8% | 196 | 18.0h |
 | gpt-6.1-sol | 3,137 | 10.4M | 695K | 490.4M | 0 | 97.9% | 14 | 21.3h |
 | gpt-5.6-terra | 1,236 | 14.0M | 379K | 93.2M | 0 | 86.9% | 91 | 8.9h |
 | gpt-6-luna | 544 | 4.4M | 77K | 72.3M | 0 | 94.2% | 20 | 2.0h |
@@ -59,21 +59,21 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 | claude-haiku-5-5 | 9 | 20 | 1K | 551K | 72K | 88.3% | 1 | 0.0h |
 | glm-5.3-flash-free | 8 | 152K | 342 | 1.0M | 0 | 87.1% | 1 | 0.0h |
 | pool-account-management | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **47,330** | **74.5M** | **18.6M** | **7,387.8M** | **254.6M** | **95.7%** | **1,087** | **195.7h** |
+| **Total** | **47,512** | **74.5M** | **18.6M** | **7,389.2M** | **255.0M** | **95.7%** | **1,090** | **196.0h** |
 
-_7,735.6M total tokens processed. 95.7% cache hit rate._
+_7,737.4M total tokens processed. 95.7% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 52,435 | 105K | 19.4M | 11,048.2M | 428.6M | 96.3% | 1,675 | 212.1h |
+| claude-opus-5 | 52,640 | 105K | 19.4M | 11,067.1M | 429.4M | 96.3% | 1,684 | 212.7h |
 | claude-sonnet-5 | 32,839 | 67K | 15.8M | 11,513.9M | 467.5M | 96.1% | 292 | 152.1h |
 | gpt-5.6-sol | 15,334 | 70.0M | 3.4M | 1,270.5M | 0 | 94.8% | 800 | 80.3h |
-| claude-opus-5-5 | 11,929 | 29K | 4.9M | 2,510.4M | 91.3M | 96.5% | 51 | 63.2h |
+| claude-opus-5-5 | 11,964 | 29K | 4.9M | 2,517.0M | 91.9M | 96.5% | 51 | 63.4h |
 | big-pickle | 10,413 | 52.1M | 4.0M | 1,023.3M | 0 | 95.2% | 147 | 53.6h |
-| gpt-5.6-luna | 7,741 | 74.6M | 6.3M | 163.5M | 0 | 68.7% | 749 | 29.9h |
-| claude-sonnet-5-5 | 6,322 | 15K | 2.4M | 1,291.4M | 69.0M | 94.9% | 57 | 23.9h |
+| gpt-5.6-luna | 7,742 | 74.6M | 6.3M | 163.5M | 0 | 68.7% | 750 | 30.0h |
+| claude-sonnet-5-5 | 6,504 | 16K | 2.5M | 1,315.4M | 70.1M | 94.9% | 60 | 24.4h |
 | claude-opus-4-8 | 5,837 | 11K | 6.9M | 1,606.9M | 98.3M | 94.2% | 46 | 42.5h |
 | gpt-6.1-sol | 4,800 | 14.3M | 1.0M | 750.0M | 0 | 98.1% | 20 | 32.7h |
 | gpt-5.6-terra | 3,515 | 35.5M | 1.0M | 269.9M | 0 | 88.4% | 323 | 19.8h |
@@ -104,17 +104,14 @@ _7,735.6M total tokens processed. 95.7% cache hit rate._
 | pool-account-management | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | claude-fable-5-1 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.1h |
 | claude-opus-4-8-fast | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **159,679** | **285.3M** | **68.1M** | **32,378.7M** | **1,164.3M** | **95.7%** | **4,090** | **749.1h** |
+| **Total** | **160,102** | **285.4M** | **68.3M** | **32,428.2M** | **1,166.9M** | **95.7%** | **4,103** | **750.3h** |
 
-_33,896.7M total tokens processed. 95.7% cache hit rate._
+_33,948.9M total tokens processed. 95.7% cache hit rate._
 <!-- STATS-END -->
 
-## Projects
+<!-- PROJECTS-START -->
+<!-- PROJECTS-END -->
 
-- **[huszka-weightlifting](https://github.com/jde90/huszka-weightlifting)** -- No description
-- **[expired-gmb-domains](https://github.com/jde90/expired-gmb-domains)** -- Expired GMB Domains finds registerable and auction domains, verifies their availability, and surfaces exact Google Business Profile signals, so you can focus on names with evidence behind them.
-- **[concrete-contractors-kenosha](https://github.com/jde90/concrete-contractors-kenosha)** -- Concrete Contractors Kenosha - static site for Cloudflare Pages
-- **[concrete-contractors-dayton](https://github.com/jde90/concrete-contractors-dayton)** -- Concrete Contractors Dayton Ohio - static site
 <!-- CONTRIBUTIONS-START -->
 ## Contributions
 
@@ -127,7 +124,7 @@ _33,896.7M total tokens processed. 95.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-06 16:46 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-06 23:13 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
