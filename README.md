@@ -22,31 +22,31 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 0.2h | 22.5h | 97.2h | ~1748h* |
-| Input activity (Mac) | 0.1h | 0.1h | 0.1h | unavailable |
-| Interactive human attention | 0.0h | 11.7h | 49.2h | 451.5h |
-| Interactive AI generation | 0.2h | 9.3h | 119.1h | 722.0h |
+| Screen time (Mac) | 3.6h | 24.8h | 89.8h | ~1748h* |
+| Input activity (Mac) | 2.4h | 2.5h | 2.5h | unavailable |
+| Interactive human attention | 1.7h | 12.8h | 45.9h | 453.3h |
+| Interactive AI generation | 3.8h | 12.7h | 115.4h | 725.8h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.9h |
-| Worker/headless AI generation | 2.2h | 14.3h | 56.9h | 184.0h |
-| Additive observed work | 2.4h | 35.3h | 225.2h | 1,358.1h |
-| Interactive sessions | 14 | 49 | 177 | 671 |
-| Worker sessions | 65 | 285 | 854 | 3,845 |
+| Worker/headless AI generation | 1.8h | 13.3h | 56.5h | 185.9h |
+| Additive observed work | 7.4h | 38.7h | 217.7h | 1,365.6h |
+| Interactive sessions | 13 | 46 | 169 | 672 |
+| Worker sessions | 36 | 251 | 829 | 3,847 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
-_Input activity from macos-input-activity:idle-cutoff-300s (time from each keyboard, mouse or trackpad input until 5 idle minutes); collection status: ok, unavailable (fewer-than-7-sampled-days). Input sampling began 2026-11-10 (0.6 of 28 days sampled); earlier days are not counted._
+_Input activity from macos-input-activity:idle-cutoff-300s (time from each keyboard, mouse or trackpad input until 5 idle minutes); collection status: ok, unavailable (fewer-than-7-sampled-days). Input sampling began 2026-11-10 (1.6 of 28 days sampled); earlier days are not counted._
 
 _Periods are completed local calendar days ending at midnight; today is excluded._
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 139 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 140 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 20,287 | 40K | 5.6M | 3,033.9M | 102.8M | 96.7% | 861 | 70.5h |
+| claude-opus-5 | 20,310 | 40K | 5.6M | 3,035.6M | 102.8M | 96.7% | 862 | 70.6h |
 | claude-opus-5-5 | 8,502 | 21K | 3.3M | 1,789.3M | 61.2M | 96.7% | 27 | 47.1h |
 | gpt-5.6-luna | 5,404 | 38.7M | 5.4M | 6.0M | 0 | 13.6% | 155 | 17.0h |
 | claude-sonnet-5-5 | 5,270 | 13K | 1.9M | 997.0M | 49.5M | 95.3% | 65 | 14.8h |
@@ -63,15 +63,15 @@ _AI session 365-day totals cover 139 days of local assistant session history (no
 | claude-haiku-5-5 | 9 | 20 | 1K | 551K | 72K | 88.3% | 1 | 0.0h |
 | nemotron-3.5-lightning-free | 3 | 64K | 601 | 88K | 0 | 57.6% | 1 | 0.0h |
 | pool-account-management | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **45,287** | **69.7M** | **17.7M** | **6,627.1M** | **216.5M** | **95.9%** | **1,075** | **186.5h** |
+| **Total** | **45,310** | **69.7M** | **17.8M** | **6,628.8M** | **216.6M** | **95.9%** | **1,076** | **186.6h** |
 
-_6,931.1M total tokens processed. 95.9% cache hit rate._
+_6,932.9M total tokens processed. 95.9% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 55,406 | 110K | 20.2M | 11,289.1M | 443.7M | 96.2% | 1,874 | 224.0h |
+| claude-opus-5 | 55,449 | 111K | 20.2M | 11,292.4M | 443.9M | 96.2% | 1,877 | 224.2h |
 | claude-sonnet-5 | 32,839 | 67K | 15.8M | 11,513.9M | 467.5M | 96.1% | 292 | 152.1h |
 | gpt-5.6-sol | 15,334 | 70.0M | 3.4M | 1,270.5M | 0 | 94.8% | 800 | 80.3h |
 | claude-opus-5-5 | 12,409 | 30K | 5.2M | 2,585.0M | 94.6M | 96.5% | 54 | 65.0h |
@@ -109,9 +109,9 @@ _6,931.1M total tokens processed. 95.9% cache hit rate._
 | pool-account-management | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | claude-fable-5-1 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.1h |
 | claude-opus-4-8-fast | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **164,449** | **287.1M** | **69.8M** | **32,868.4M** | **1,192.9M** | **95.7%** | **4,317** | **768.9h** |
+| **Total** | **164,492** | **287.1M** | **69.8M** | **32,871.6M** | **1,193.1M** | **95.7%** | **4,320** | **769.1h** |
 
-_34,418.3M total tokens processed. 95.7% cache hit rate._
+_34,421.8M total tokens processed. 95.7% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -129,7 +129,7 @@ _34,418.3M total tokens processed. 95.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-12 05:09 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-12 06:16 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
