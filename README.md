@@ -30,7 +30,7 @@
 | Worker/headless AI generation | 2.4h | 13.6h | 59.8h | 189.7h |
 | Additive observed work | 7.2h | 35.3h | 211.0h | 1,375.3h |
 | Interactive sessions | 11 | 45 | 168 | 685 |
-| Worker sessions | 53 | 266 | 891 | 3,932 |
+| Worker sessions | 54 | 267 | 892 | 3,933 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -46,12 +46,12 @@ _AI session 365-day totals cover 142 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 20,585 | 41K | 5.6M | 2,976.7M | 100.5M | 96.7% | 880 | 70.3h |
-| claude-opus-5-5 | 7,946 | 20K | 3.0M | 1,650.4M | 52.2M | 96.9% | 26 | 45.5h |
-| gpt-5.6-luna | 5,202 | 36.6M | 5.2M | 5.2M | 0 | 12.4% | 138 | 16.4h |
+| claude-opus-5 | 20,591 | 41K | 5.6M | 2,977.1M | 100.5M | 96.7% | 881 | 70.3h |
+| claude-opus-5-5 | 7,943 | 20K | 3.0M | 1,649.7M | 52.2M | 96.9% | 26 | 45.5h |
+| gpt-5.6-luna | 5,201 | 36.6M | 5.2M | 5.2M | 0 | 12.5% | 138 | 16.4h |
 | claude-sonnet-5-5 | 4,603 | 11K | 1.6M | 856.7M | 41.3M | 95.4% | 61 | 12.5h |
-| gpt-6.1-sol | 2,344 | 7.4M | 474K | 370.2M | 0 | 98.0% | 11 | 16.0h |
-| gpt-5.6-terra | 927 | 8.6M | 310K | 66.2M | 0 | 88.5% | 69 | 7.3h |
+| gpt-6.1-sol | 2,333 | 7.4M | 473K | 368.2M | 0 | 98.0% | 11 | 15.9h |
+| gpt-5.6-terra | 924 | 8.5M | 309K | 66.0M | 0 | 88.5% | 68 | 7.3h |
 | claude-fable-5-2 | 720 | 1K | 442K | 116.9M | 5.8M | 95.2% | 3 | 5.2h |
 | gpt-6-luna | 283 | 2.8M | 33K | 31.8M | 0 | 91.8% | 15 | 0.8h |
 | deepseek-v4.1-flash-free | 154 | 1.7M | 30K | 20.0M | 0 | 91.8% | 6 | 0.4h |
@@ -62,15 +62,15 @@ _AI session 365-day totals cover 142 days of local assistant session history (no
 | claude-haiku-5-5 | 9 | 20 | 1K | 551K | 72K | 88.3% | 1 | 0.0h |
 | nemotron-3.5-lightning-free | 3 | 64K | 601 | 88K | 0 | 57.6% | 1 | 0.0h |
 | pool-account-management | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **42,971** | **58.5M** | **17.0M** | **6,122.0M** | **200.0M** | **95.9%** | **1,067** | **175.6h** |
+| **Total** | **42,959** | **58.3M** | **17.0M** | **6,119.4M** | **200.1M** | **95.9%** | **1,067** | **175.4h** |
 
-_6,397.6M total tokens processed. 95.9% cache hit rate._
+_6,394.9M total tokens processed. 95.9% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 56,689 | 113K | 20.5M | 11,393.4M | 450.0M | 96.2% | 1,956 | 228.6h |
+| claude-opus-5 | 56,695 | 113K | 20.5M | 11,393.7M | 450.1M | 96.2% | 1,957 | 228.6h |
 | claude-sonnet-5 | 32,839 | 67K | 15.8M | 11,513.9M | 467.5M | 96.1% | 292 | 152.1h |
 | gpt-5.6-sol | 15,334 | 70.0M | 3.4M | 1,270.5M | 0 | 94.8% | 800 | 80.3h |
 | claude-opus-5-5 | 12,679 | 30K | 5.3M | 2,627.7M | 95.9M | 96.5% | 56 | 65.9h |
@@ -108,9 +108,9 @@ _6,397.6M total tokens processed. 95.9% cache hit rate._
 | pool-account-management | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | claude-fable-5-1 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.1h |
 | claude-opus-4-8-fast | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **166,579** | **288.7M** | **70.6M** | **33,089.5M** | **1,204.1M** | **95.7%** | **4,416** | **777.8h** |
+| **Total** | **166,585** | **288.7M** | **70.6M** | **33,089.9M** | **1,204.2M** | **95.7%** | **4,417** | **777.8h** |
 
-_34,653.1M total tokens processed. 95.7% cache hit rate._
+_34,653.6M total tokens processed. 95.7% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -128,7 +128,7 @@ _34,653.1M total tokens processed. 95.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-14 20:09 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-14 21:12 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
