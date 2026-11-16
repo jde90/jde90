@@ -30,7 +30,7 @@
 | Worker/headless AI generation | 2.0h | 12.9h | 63.2h | 193.1h |
 | Additive observed work | 7.3h | 35.3h | 211.6h | 1,385.7h |
 | Interactive sessions | 11 | 40 | 162 | 691 |
-| Worker sessions | 45 | 252 | 948 | 3,992 |
+| Worker sessions | 46 | 253 | 949 | 3,993 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -46,13 +46,13 @@ _AI session 365-day totals cover 144 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 21,089 | 42K | 5.8M | 2,974.1M | 103.1M | 96.6% | 935 | 73.2h |
+| claude-opus-5 | 21,120 | 42K | 5.8M | 2,976.8M | 103.2M | 96.6% | 936 | 73.4h |
 | claude-opus-5-5 | 7,890 | 20K | 3.0M | 1,607.3M | 50.2M | 97.0% | 26 | 45.8h |
-| gpt-5.6-luna | 5,022 | 35.4M | 5.0M | 4.9M | 0 | 12.3% | 134 | 16.0h |
-| claude-sonnet-5-5 | 4,623 | 11K | 1.7M | 845.4M | 41.2M | 95.3% | 63 | 12.7h |
+| gpt-5.6-luna | 5,020 | 35.4M | 5.0M | 4.9M | 0 | 12.3% | 134 | 16.0h |
+| claude-sonnet-5-5 | 4,600 | 11K | 1.7M | 840.6M | 40.7M | 95.4% | 62 | 12.6h |
 | gpt-6.1-sol | 1,836 | 6.2M | 366K | 287.9M | 0 | 97.9% | 9 | 13.5h |
 | claude-fable-5-2 | 916 | 1K | 586K | 150.0M | 7.5M | 95.2% | 3 | 6.2h |
-| gpt-5.6-terra | 881 | 7.6M | 307K | 63.1M | 0 | 89.2% | 58 | 7.2h |
+| gpt-5.6-terra | 877 | 7.4M | 307K | 62.9M | 0 | 89.4% | 56 | 7.1h |
 | gpt-6-luna | 190 | 1.9M | 17K | 17.5M | 0 | 90.1% | 13 | 0.5h |
 | deepseek-v4.1-flash-free | 154 | 1.7M | 30K | 20.0M | 0 | 91.8% | 6 | 0.4h |
 | big-pickle | 131 | 427K | 19K | 20.1M | 0 | 97.9% | 1 | 1.1h |
@@ -61,15 +61,15 @@ _AI session 365-day totals cover 144 days of local assistant session history (no
 | claude-haiku-5-5 | 9 | 20 | 1K | 551K | 72K | 88.3% | 1 | 0.0h |
 | nemotron-3.5-lightning-free | 3 | 64K | 601 | 88K | 0 | 57.6% | 1 | 0.0h |
 | pool-account-management | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **42,789** | **53.9M** | **17.0M** | **5,994.3M** | **202.2M** | **95.9%** | **1,107** | **176.6h** |
+| **Total** | **42,791** | **53.7M** | **17.0M** | **5,992.0M** | **201.8M** | **95.9%** | **1,105** | **176.6h** |
 
-_6,267.5M total tokens processed. 95.9% cache hit rate._
+_6,264.6M total tokens processed. 95.9% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 57,555 | 115K | 20.7M | 11,470.7M | 454.6M | 96.2% | 2,016 | 232.6h |
+| claude-opus-5 | 57,586 | 115K | 20.7M | 11,473.4M | 454.7M | 96.2% | 2,017 | 232.7h |
 | claude-sonnet-5 | 32,839 | 67K | 15.8M | 11,513.9M | 467.5M | 96.1% | 292 | 152.1h |
 | gpt-5.6-sol | 15,334 | 70.0M | 3.4M | 1,270.5M | 0 | 94.8% | 800 | 80.3h |
 | claude-opus-5-5 | 13,078 | 31K | 5.5M | 2,687.5M | 98.2M | 96.5% | 58 | 67.2h |
@@ -107,9 +107,9 @@ _6,267.5M total tokens processed. 95.9% cache hit rate._
 | pool-account-management | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | claude-fable-5-1 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.1h |
 | claude-opus-4-8-fast | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **168,209** | **289.6M** | **71.2M** | **33,275.0M** | **1,213.9M** | **95.7%** | **4,481** | **784.8h** |
+| **Total** | **168,240** | **289.6M** | **71.2M** | **33,277.7M** | **1,214.0M** | **95.7%** | **4,482** | **784.9h** |
 
-_34,849.8M total tokens processed. 95.7% cache hit rate._
+_34,852.6M total tokens processed. 95.7% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -127,7 +127,7 @@ _34,849.8M total tokens processed. 95.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-16 12:01 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-16 13:20 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
