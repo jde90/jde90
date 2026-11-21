@@ -46,22 +46,22 @@ _AI session 365-day totals cover 149 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 16,793 | 33K | 4.5M | 1,653.5M | 82.3M | 95.3% | 1,002 | 64.9h |
+| claude-opus-5 | 16,768 | 33K | 4.5M | 1,648.1M | 82.0M | 95.3% | 1,000 | 64.8h |
 | claude-sonnet-5-5 | 4,152 | 9K | 1.6M | 654.8M | 41.1M | 94.1% | 58 | 13.0h |
 | claude-opus-5-5 | 3,237 | 6K | 1.7M | 513.2M | 19.3M | 96.4% | 20 | 39.4h |
 | gpt-6.1-sol | 1,200 | 5.2M | 238K | 186.5M | 0 | 97.3% | 11 | 10.4h |
 | claude-fable-5-2 | 1,075 | 2K | 647K | 174.7M | 8.7M | 95.2% | 6 | 7.4h |
 | gpt-5.6-terra | 950 | 7.5M | 304K | 63.4M | 0 | 89.3% | 74 | 7.4h |
-| gpt-5.6-luna | 795 | 8.7M | 855K | 3.8M | 0 | 30.4% | 72 | 4.2h |
+| gpt-5.6-luna | 792 | 8.7M | 852K | 3.8M | 0 | 30.4% | 71 | 4.2h |
 | deepseek-v4.1-flash-free | 73 | 653K | 14K | 8.3M | 0 | 92.7% | 3 | 0.2h |
 | gpt-6-luna | 33 | 130K | 3K | 2.5M | 0 | 95.1% | 1 | 0.2h |
 | gpt-6.1-terra | 24 | 67K | 3K | 1.4M | 0 | 95.4% | 1 | 0.0h |
 | glm-5.3-flash-free | 12 | 97K | 571 | 439K | 0 | 81.8% | 1 | 0.0h |
 | claude-haiku-5-5 | 9 | 20 | 1K | 551K | 72K | 88.3% | 1 | 0.0h |
 | nemotron-3.5-lightning-free | 3 | 64K | 601 | 88K | 0 | 57.6% | 1 | 0.0h |
-| **Total** | **28,356** | **22.6M** | **9.9M** | **3,263.5M** | **151.8M** | **94.9%** | **1,171** | **147.1h** |
+| **Total** | **28,328** | **22.6M** | **9.9M** | **3,258.1M** | **151.5M** | **94.9%** | **1,169** | **147.0h** |
 
-_3,447.9M total tokens processed. 94.9% cache hit rate._
+_3,442.2M total tokens processed. 94.9% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -125,7 +125,7 @@ _35,313.4M total tokens processed. 95.6% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-21 06:17 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-21 07:01 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
