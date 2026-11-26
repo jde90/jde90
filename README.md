@@ -29,8 +29,8 @@
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.9h |
 | Worker/headless AI generation | 2.1h | 14.7h | 54.7h | 213.8h |
 | Additive observed work | 19.8h | 69.9h | 175.2h | 1,470.8h |
-| Interactive sessions | 28 | 94 | 202 | 790 |
-| Worker sessions | 72 | 319 | 1,022 | 4,400 |
+| Interactive sessions | 29 | 95 | 203 | 791 |
+| Worker sessions | 74 | 321 | 1,024 | 4,402 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -46,15 +46,15 @@ _AI session 365-day totals cover 154 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 16,103 | 32K | 4.4M | 1,518.1M | 84.6M | 94.7% | 1,042 | 64.2h |
-| claude-sonnet-5-5 | 5,036 | 11K | 2.3M | 708.3M | 61.4M | 92.0% | 134 | 16.4h |
-| claude-opus-5-5 | 3,774 | 8K | 1.9M | 600.2M | 26.4M | 95.8% | 22 | 13.8h |
+| claude-opus-5 | 16,093 | 32K | 4.4M | 1,518.9M | 84.8M | 94.7% | 1,042 | 64.1h |
+| claude-sonnet-5-5 | 5,040 | 11K | 2.3M | 709.0M | 61.6M | 92.0% | 134 | 16.4h |
+| claude-opus-5-5 | 3,933 | 8K | 1.9M | 636.0M | 27.2M | 95.9% | 23 | 14.2h |
 | claude-fable-5-2 | 1,646 | 3K | 1.0M | 283.8M | 17.8M | 94.1% | 12 | 13.6h |
 | gpt-5.6-terra | 1,173 | 8.6M | 318K | 79.2M | 0 | 90.2% | 94 | 5.9h |
-| gpt-5.6-luna | 462 | 8.2M | 586K | 6.4M | 0 | 44.1% | 62 | 6.1h |
+| gpt-5.6-luna | 476 | 8.3M | 607K | 6.4M | 0 | 43.8% | 62 | 6.3h |
 | deepseek-v4.1-flash-free | 315 | 1.2M | 96K | 44.1M | 0 | 97.2% | 5 | 0.8h |
+| gpt-6.2-sol | 265 | 5.7M | 63K | 34.9M | 0 | 85.8% | 2 | 0.7h |
 | gpt-6.1-sol | 230 | 1.0M | 42K | 33.1M | 0 | 97.0% | 6 | 1.1h |
-| gpt-6.2-sol | 187 | 4.1M | 47K | 20.9M | 0 | 83.4% | 2 | 0.5h |
 | gpt-6.2-astra | 110 | 2.5M | 30K | 9.6M | 0 | 78.9% | 2 | 0.5h |
 | gpt-6-luna | 33 | 130K | 3K | 2.5M | 0 | 95.1% | 1 | 0.2h |
 | gpt-6.1-terra | 24 | 67K | 3K | 1.4M | 0 | 95.4% | 1 | 0.0h |
@@ -62,21 +62,21 @@ _AI session 365-day totals cover 154 days of local assistant session history (no
 | claude-haiku-5-5 | 9 | 20 | 1K | 551K | 72K | 88.3% | 1 | 0.0h |
 | big-pickle | 6 | 277K | 855 | 530K | 0 | 65.7% | 1 | 0.0h |
 | nemotron-3.5-lightning-free | 3 | 64K | 601 | 88K | 0 | 57.6% | 1 | 0.0h |
-| **Total** | **29,123** | **26.5M** | **10.8M** | **3,309.6M** | **190.4M** | **93.8%** | **1,278** | **123.0h** |
+| **Total** | **29,368** | **28.2M** | **10.9M** | **3,361.0M** | **191.6M** | **93.9%** | **1,279** | **123.8h** |
 
-_3,537.5M total tokens processed. 93.8% cache hit rate._
+_3,591.9M total tokens processed. 93.9% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5 | 63,087 | 126K | 22.2M | 12,093.2M | 488.0M | 96.1% | 2,379 | 253.6h |
+| claude-opus-5 | 63,101 | 126K | 22.2M | 12,095.9M | 488.3M | 96.1% | 2,381 | 253.7h |
 | claude-sonnet-5 | 32,839 | 67K | 15.8M | 11,513.9M | 467.5M | 96.1% | 292 | 152.1h |
 | gpt-5.6-sol | 15,334 | 70.0M | 3.4M | 1,270.5M | 0 | 94.8% | 800 | 80.3h |
-| claude-opus-5-5 | 14,141 | 34K | 6.0M | 2,869.2M | 109.4M | 96.3% | 64 | 70.9h |
-| claude-sonnet-5-5 | 10,614 | 25K | 4.4M | 1,906.4M | 121.3M | 94.0% | 172 | 36.8h |
+| claude-opus-5-5 | 14,300 | 34K | 6.0M | 2,905.1M | 110.2M | 96.3% | 65 | 71.4h |
+| claude-sonnet-5-5 | 10,618 | 25K | 4.4M | 1,907.1M | 121.5M | 94.0% | 172 | 36.8h |
 | big-pickle | 10,419 | 52.3M | 4.0M | 1,023.8M | 0 | 95.1% | 148 | 53.6h |
-| gpt-5.6-luna | 8,156 | 81.5M | 6.8M | 168.5M | 0 | 67.4% | 797 | 35.7h |
+| gpt-5.6-luna | 8,170 | 81.6M | 6.9M | 168.5M | 0 | 67.4% | 797 | 36.0h |
 | claude-opus-4-8 | 5,837 | 11K | 6.9M | 1,606.9M | 98.3M | 94.2% | 46 | 42.5h |
 | gpt-6.1-sol | 4,810 | 14.5M | 1.0M | 751.1M | 0 | 98.1% | 22 | 32.7h |
 | gpt-5.6-terra | 4,500 | 42.8M | 1.2M | 335.1M | 0 | 88.7% | 405 | 24.8h |
@@ -86,12 +86,12 @@ _3,537.5M total tokens processed. 93.8% cache hit rate._
 | gpt-6-luna | 885 | 6.7M | 146K | 120.8M | 0 | 94.7% | 25 | 3.7h |
 | deepseek-v4.1-flash-free | 416 | 2.7M | 115K | 58.8M | 0 | 95.5% | 9 | 1.1h |
 | claude-sonnet-4-6 | 360 | 468 | 254K | 62.6M | 3.4M | 94.8% | 3 | 1.8h |
+| gpt-6.2-sol | 265 | 5.7M | 63K | 34.9M | 0 | 85.8% | 2 | 0.7h |
 | claude-opus-4-6 | 255 | 305 | 160K | 51.4M | 2.5M | 95.3% | 2 | 1.6h |
 | muse-spark-1.2-contributor-free | 228 | 1.7M | 47K | 59.0M | 0 | 97.1% | 1 | 0.5h |
 | deepseek-v4-pro | 211 | 951K | 81K | 41.3M | 0 | 97.8% | 3 | 0.8h |
 | gpt-6-astra | 210 | 1.5M | 68K | 23.9M | 0 | 94.0% | 5 | 1.3h |
 | claude-fable-5 | 187 | 374 | 159K | 32.6M | 2.8M | 91.9% | 6 | 1.2h |
-| gpt-6.2-sol | 187 | 4.1M | 47K | 20.9M | 0 | 83.4% | 2 | 0.5h |
 | gpt-6.2-astra | 110 | 2.5M | 30K | 9.6M | 0 | 78.9% | 2 | 0.5h |
 | nemotron-3-ultra-free | 109 | 3.0M | 8K | 9.3M | 0 | 75.6% | 5 | 0.8h |
 | longcat-2.5-preview-free | 102 | 149K | 9K | 12.3M | 0 | 98.8% | 1 | 0.3h |
@@ -110,9 +110,9 @@ _3,537.5M total tokens processed. 93.8% cache hit rate._
 | pool-account-management | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | claude-fable-5-1 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.1h |
 | claude-opus-4-8-fast | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **180,475** | **308.0M** | **76.0M** | **34,823.3M** | **1,312.0M** | **95.6%** | **4,983** | **837.3h** |
+| **Total** | **180,744** | **309.8M** | **76.1M** | **34,876.4M** | **1,313.3M** | **95.6%** | **4,986** | **838.2h** |
 
-_36,519.5M total tokens processed. 95.6% cache hit rate._
+_36,575.7M total tokens processed. 95.6% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -130,7 +130,7 @@ _36,519.5M total tokens processed. 95.6% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-26 20:04 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-26 21:01 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
